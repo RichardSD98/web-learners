@@ -219,15 +219,57 @@ export default async function HomePage() {
                   <div className="flex items-start justify-between gap-3">
                     <span className="font-medium">{CODE_LABELS[code]}</span>
                     <span className="shrink-0 rounded-full bg-warn-soft px-2.5 py-1 text-xs font-semibold text-warn">
-                      Unavailable
+                      {previewMode ? "Preview" : "Unavailable"}
                     </span>
                   </div>
-                  <p className="mt-2 text-sm leading-relaxed text-muted">
-                    The bank can fill {fillable} of the {needed} slots in a full paper.
-                    A shortened paper is deliberately not offered in its place — the
-                    quotas below are the test, and {fillable} questions drawn in the same
-                    proportions would be a different examination presented as this one.
-                  </p>
+
+                  {previewMode ? (
+                    <>
+                      <p className="mt-2 text-sm leading-relaxed text-muted">
+                        The bank can fill {fillable} of the {needed} slots in a full
+                        paper, so this serves a {previewLength}-question preview rather
+                        than nothing at all. Every question in it was printed on a real
+                        paper with the answer that paper gave — there are not yet enough
+                        of them to make the examination, which is what the table below
+                        shows.
+                      </p>
+
+                      <StartTest
+                        code={code}
+                        seed={seed}
+                        className="mt-4 block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                      >
+                        <div className="flex items-start justify-between gap-3">
+                          <span className="font-medium">Sit the preview</span>
+                          <span className="shrink-0 text-sm text-accent">Start &rarr;</span>
+                        </div>
+                        <p className="mt-2 text-sm text-muted">
+                          {previewLength} questions &middot; {TEST_DURATION_MINUTES}{" "}
+                          minutes &middot; no pass mark
+                        </p>
+                      </StartTest>
+
+                      <p className="mt-3 text-xs leading-relaxed text-muted">
+                        It is labelled a preview on every question and on the results,
+                        and it is not marked against the {PASS_MARK_CORRECT}-correct pass
+                        mark — a score on {previewLength} questions says nothing about
+                        whether you would pass a paper of {needed}. Treat it as practice,
+                        not as a mock.
+                      </p>
+
+                      <h4 className="mt-5 text-xs font-semibold uppercase tracking-wide text-muted">
+                        Where the bank falls short
+                      </h4>
+                    </>
+                  ) : (
+                    <p className="mt-2 text-sm leading-relaxed text-muted">
+                      The bank can fill {fillable} of the {needed} slots in a full paper.
+                      A shortened paper is deliberately not offered in its place — the
+                      quotas below are the test, and {fillable} questions drawn in the
+                      same proportions would be a different examination presented as this
+                      one.
+                    </p>
+                  )}
 
                   <table className="mt-4 w-full text-sm">
                     <thead>
@@ -268,28 +310,6 @@ export default async function HomePage() {
                     </tbody>
                   </table>
 
-                  {/* Off unless the build sets NEXT_PUBLIC_PREVIEW_MODE. Without
-                      it this card ends at the table, as it did before. */}
-                  {previewMode && (
-                    <div className="mt-4 border-t border-line pt-4">
-                      <StartTest
-                        code={code}
-                        seed={seed}
-                        className="inline-block rounded-lg border border-warn/40 bg-warn-soft px-3 py-2 text-sm font-semibold text-warn focus:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-                      >
-                        Preview this test anyway &rarr;
-                      </StartTest>
-                      <p className="mt-2 text-xs leading-relaxed text-muted">
-                        Serves the {previewLength} questions the bank can produce —
-                        whatever each topic has, padded from topics with a surplus but
-                        never past a section&apos;s real length, so the question numbers
-                        stay the ones the paper prints. It is labelled as a preview on
-                        every question and on the results, which carry no pass mark. It
-                        is not a mock of the official paper and is here to exercise the
-                        app, not to prepare anyone.
-                      </p>
-                    </div>
-                  )}
                 </div>
               </li>
             );

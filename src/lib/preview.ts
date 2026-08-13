@@ -12,26 +12,35 @@ import type { TopicKey } from "./schema";
 /**
  * Preview mode: serve a paper the bank cannot fill, labelled as not the test.
  *
- * This exists so the flow can be walked through - timer, question order,
- * artwork, review - while the bank is still being transcribed. It is a
- * development affordance, and the build flag is the whole safety property: with
- * the flag unset, which is every build that does not deliberately set it, this
- * module changes nothing and a short bank still refuses.
+ * On by default, because a learner who opens this app should be able to sit
+ * something. A bank that cannot fill the official quotas used to mean a dead
+ * end, and a dead end helps nobody: the questions in it are real questions with
+ * real answers, and working through them is worth doing even when there are not
+ * yet 90 of them.
  *
- * The refusal is the honest default and stays the default. Preview does not
- * relax it for a learner; it steps around it for whoever is building the thing,
- * and it says so on every screen it produces.
+ * What that costs is the guarantee that anything served is the examination, and
+ * the labelling is what pays for it. A preview says so on every question and on
+ * the results, states its real length and which topics are short, and is never
+ * marked against the official pass mark - `scoreTest` returns a null pass mark
+ * rather than applying 80% to a paper the regulation says nothing about. None of
+ * that is optional or dismissible, and none of it is affected by this flag.
+ *
+ * `NEXT_PUBLIC_PREVIEW_MODE=false` restores the strict build, which refuses a
+ * short bank outright. That is the right setting for anyone who needs the app to
+ * serve the examination or nothing at all.
  */
 
 /**
  * Read at call time rather than captured at import, so a test can toggle it.
  *
  * The expression is written out literally because Next substitutes
- * `process.env.NEXT_PUBLIC_*` textually at build time. A build without the flag
- * has `false` compiled in, not a lookup that could go the other way at runtime.
+ * `process.env.NEXT_PUBLIC_*` textually at build time, so the value is compiled
+ * in rather than looked up at runtime. Only the exact string "false" turns this
+ * off: an unset, empty or misspelled variable leaves the app usable rather than
+ * silently returning it to a dead end.
  */
 export function previewModeEnabled(): boolean {
-  return process.env.NEXT_PUBLIC_PREVIEW_MODE === "true";
+  return process.env.NEXT_PUBLIC_PREVIEW_MODE !== "false";
 }
 
 /**

@@ -94,11 +94,16 @@ road law.
 
 ## Preview mode
 
-`NEXT_PUBLIC_PREVIEW_MODE=true` in `.env.local` lets the app assemble a paper the
-bank cannot fill, so the flow can be walked through — timer, question order,
-artwork, review — while the questions are still being transcribed. It is off in
-any build that does not set it, and a build without it refuses a short bank
-exactly as before; `tests/preview.test.ts` pins that.
+**On by default.** When the bank cannot fill the official quotas the app serves
+the largest honest paper it can rather than a dead end — currently 66 questions
+against the paper's 90. Every question in it was still printed on a real paper
+with the answer that paper gave; there are simply not yet enough of them to be
+the examination.
+
+`NEXT_PUBLIC_PREVIEW_MODE=false` restores the strict build, which refuses a short
+bank outright and reports the shortfall per topic. Only that exact string turns
+it off — an unset or misspelled variable leaves the app usable.
+`tests/preview.test.ts` pins both directions.
 
 What a preview is, in full:
 

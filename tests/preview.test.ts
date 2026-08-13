@@ -111,29 +111,29 @@ afterEach(() => {
 });
 
 describe("the preview flag", () => {
-  it("is off when unset", () => {
+  it("is on when unset, so a short bank is never a dead end", () => {
     vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", undefined);
-    expect(previewModeEnabled()).toBe(false);
-  });
-
-  it("is off for anything but the exact string true", () => {
-    for (const value of ["", "false", "0", "1", "yes", "TRUE", "True"]) {
-      vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", value);
-      expect(previewModeEnabled(), value).toBe(false);
-    }
-  });
-
-  it("is on for true", () => {
-    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", "true");
     expect(previewModeEnabled()).toBe(true);
+  });
+
+  it("is turned off only by the exact string false", () => {
+    // A misspelled or empty variable leaves the app usable rather than silently
+    // returning it to a dead end. Turning it off has to be deliberate.
+    for (const value of ["", "0", "no", "FALSE", "False", "true"]) {
+      vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", value);
+      expect(previewModeEnabled(), value).toBe(true);
+    }
+
+    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", "false");
+    expect(previewModeEnabled()).toBe(false);
   });
 });
 
 describe("with the flag off", () => {
-  // The point of the whole feature: a build that does not ask for preview mode
-  // behaves exactly as it did before it existed.
-  it("still refuses a short bank, and hands back what the unavailable screen prints", () => {
-    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", undefined);
+  // The strict build: for anyone who needs the app to serve the examination or
+  // nothing at all, one variable still restores the refusal in full.
+  it("refuses a short bank, and hands back what the unavailable screen prints", () => {
+    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", "false");
 
     const resolution = resolvePaper("seed", "2", shortPool());
 
@@ -150,15 +150,8 @@ describe("with the flag off", () => {
     });
   });
 
-  it("refuses with the flag set to anything short of true", () => {
-    for (const value of ["false", "", "1", "TRUE"]) {
-      vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", value);
-      expect(resolvePaper("seed", "2", shortPool()).kind, value).toBe("unavailable");
-    }
-  });
-
   it("still serves a full paper when the bank can fill one", () => {
-    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", undefined);
+    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", "false");
     const resolution = resolvePaper("seed", "2", pool());
     expect(resolution.kind).toBe("paper");
     if (resolution.kind !== "paper") return;
@@ -167,9 +160,9 @@ describe("with the flag off", () => {
   });
 });
 
-describe("with the flag on", () => {
+describe("by default", () => {
   it("previews a short bank instead of refusing", () => {
-    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", "true");
+    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", undefined);
     const resolution = resolvePaper("seed", "2", shortPool());
     expect(resolution.kind).toBe("preview");
     if (resolution.kind !== "preview") return;
@@ -177,7 +170,7 @@ describe("with the flag on", () => {
   });
 
   it("leaves a fillable bank alone: a real paper stays a real paper", () => {
-    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", "true");
+    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", undefined);
     const resolution = resolvePaper("seed", "2", pool());
     expect(resolution.kind).toBe("paper");
     if (resolution.kind !== "paper") return;
@@ -190,7 +183,7 @@ describe("with the flag on", () => {
   it("still refuses Code 1, whose quotas are not sourced", () => {
     // A shortfall is a bank too small to fill a known paper. This is not knowing
     // what the paper is, and no flag makes that guessable.
-    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", "true");
+    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", undefined);
     const resolution = resolvePaper("seed", "1", pool());
     expect(resolution.kind).toBe("unavailable");
     if (resolution.kind !== "unavailable") return;
@@ -198,7 +191,7 @@ describe("with the flag on", () => {
   });
 
   it("refuses rather than serving an empty screen when the bank holds nothing", () => {
-    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", "true");
+    vi.stubEnv("NEXT_PUBLIC_PREVIEW_MODE", undefined);
     expect(resolvePaper("seed", "2", emptyPool()).kind).toBe("unavailable");
   });
 });
