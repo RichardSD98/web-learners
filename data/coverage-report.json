@@ -1,0 +1,3241 @@
+{
+  "target": {
+    "length": 90,
+    "passMarkCorrect": 72
+  },
+  "topicLabels": {
+    "labelledBy": "machine",
+    "reviewed": false,
+    "note": "Subject-topic labels, which are what the official 90-question blueprint is built from. The extractor leaves `topic`, `category` and `sign_type` null by design, and no bank carries them, so without this file no question can be placed in a quota. A label decides only WHICH QUOTA a question counts toward - it never touches the question, its options or its stated answer.",
+    "unreviewed": 72
+  },
+  "generalDutiesMinimum": 5,
+  "generatedFrom": [
+    {
+      "bank": "paper-a-answers.json",
+      "scanFile": "Test_paper_with_answers.pdf",
+      "total": 90,
+      "servable": 72,
+      "excluded": 18
+    },
+    {
+      "bank": "paper-a-markup.json",
+      "scanFile": "TEST_PAPER_A-1.pdf",
+      "total": 90,
+      "servable": 0,
+      "excluded": 90
+    },
+    {
+      "bank": "paper-a.json",
+      "scanFile": "TEST_PAPER_A-1-1.pdf",
+      "total": 90,
+      "servable": 0,
+      "excluded": 90
+    },
+    {
+      "bank": "test1-answered.json",
+      "scanFile": "Test_1.pdf",
+      "total": 90,
+      "servable": 3,
+      "excluded": 87
+    },
+    {
+      "bank": "questions-test1.json",
+      "scanFile": "Test_1.pdf",
+      "total": 90,
+      "servable": 0,
+      "excluded": 90
+    },
+    {
+      "bank": "test1-ocr.json",
+      "scanFile": "Test_1.pdf",
+      "total": 87,
+      "servable": 0,
+      "excluded": 87
+    },
+    {
+      "bank": "test3-ocr.json",
+      "scanFile": "Test_3.pdf",
+      "total": 87,
+      "servable": 0,
+      "excluded": 87
+    }
+  ],
+  "servableTotal": 75,
+  "servable": [
+    {
+      "uid": "paper_a#10",
+      "bank": "paper-a-answers.json",
+      "number": 10,
+      "topic": "regulatory_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#11",
+      "bank": "paper-a-answers.json",
+      "number": 11,
+      "topic": "regulatory_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#13",
+      "bank": "paper-a-answers.json",
+      "number": 13,
+      "topic": "regulatory_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#14",
+      "bank": "paper-a-answers.json",
+      "number": 14,
+      "topic": "warning_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#15",
+      "bank": "paper-a-answers.json",
+      "number": 15,
+      "topic": "warning_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#16",
+      "bank": "paper-a-answers.json",
+      "number": 16,
+      "topic": "warning_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#17",
+      "bank": "paper-a-answers.json",
+      "number": 17,
+      "topic": "warning_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#18",
+      "bank": "paper-a-answers.json",
+      "number": 18,
+      "topic": "warning_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#19",
+      "bank": "paper-a-answers.json",
+      "number": 19,
+      "topic": "warning_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#20",
+      "bank": "paper-a-answers.json",
+      "number": 20,
+      "topic": "warning_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#21",
+      "bank": "paper-a-answers.json",
+      "number": 21,
+      "topic": "warning_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#22",
+      "bank": "paper-a-answers.json",
+      "number": 22,
+      "topic": "warning_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#23",
+      "bank": "paper-a-answers.json",
+      "number": 23,
+      "topic": "warning_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#24",
+      "bank": "paper-a-answers.json",
+      "number": 24,
+      "topic": "guidance_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#25",
+      "bank": "paper-a-answers.json",
+      "number": 25,
+      "topic": "guidance_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#26",
+      "bank": "paper-a-answers.json",
+      "number": 26,
+      "topic": "road_markings",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#27",
+      "bank": "paper-a-answers.json",
+      "number": 27,
+      "topic": "guidance_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#28",
+      "bank": "paper-a-answers.json",
+      "number": 28,
+      "topic": "guidance_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#29",
+      "bank": "paper-a-answers.json",
+      "number": 29,
+      "topic": "guidance_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#30",
+      "bank": "paper-a-answers.json",
+      "number": 30,
+      "topic": "guidance_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#31",
+      "bank": "paper-a-answers.json",
+      "number": 31,
+      "topic": "road_markings",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#32",
+      "bank": "paper-a-answers.json",
+      "number": 32,
+      "topic": "information_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#33",
+      "bank": "paper-a-answers.json",
+      "number": 33,
+      "topic": "information_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#34",
+      "bank": "paper-a-answers.json",
+      "number": 34,
+      "topic": "information_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#35",
+      "bank": "paper-a-answers.json",
+      "number": 35,
+      "topic": "regulatory_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#36",
+      "bank": "paper-a-answers.json",
+      "number": 36,
+      "topic": "road_markings",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#37",
+      "bank": "paper-a-answers.json",
+      "number": 37,
+      "topic": "road_markings",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#38",
+      "bank": "paper-a-answers.json",
+      "number": 38,
+      "topic": "road_markings",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#39",
+      "bank": "paper-a-answers.json",
+      "number": 39,
+      "topic": "road_markings",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#40",
+      "bank": "paper-a-answers.json",
+      "number": 40,
+      "topic": "road_markings",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#42",
+      "bank": "paper-a-answers.json",
+      "number": 42,
+      "topic": "road_markings",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#44",
+      "bank": "paper-a-answers.json",
+      "number": 44,
+      "topic": "road_signals",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#46",
+      "bank": "paper-a-answers.json",
+      "number": 46,
+      "topic": "road_signals",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#47",
+      "bank": "paper-a-answers.json",
+      "number": 47,
+      "topic": "traffic_legislation",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#48",
+      "bank": "paper-a-answers.json",
+      "number": 48,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#49",
+      "bank": "paper-a-answers.json",
+      "number": 49,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#50",
+      "bank": "paper-a-answers.json",
+      "number": 50,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#51",
+      "bank": "paper-a-answers.json",
+      "number": 51,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#52",
+      "bank": "paper-a-answers.json",
+      "number": 52,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#53",
+      "bank": "paper-a-answers.json",
+      "number": 53,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#54",
+      "bank": "paper-a-answers.json",
+      "number": 54,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#55",
+      "bank": "paper-a-answers.json",
+      "number": 55,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#56",
+      "bank": "paper-a-answers.json",
+      "number": 56,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#57",
+      "bank": "paper-a-answers.json",
+      "number": 57,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#58",
+      "bank": "paper-a-answers.json",
+      "number": 58,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#59",
+      "bank": "paper-a-answers.json",
+      "number": 59,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#60",
+      "bank": "paper-a-answers.json",
+      "number": 60,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#61",
+      "bank": "paper-a-answers.json",
+      "number": 61,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#62",
+      "bank": "paper-a-answers.json",
+      "number": 62,
+      "topic": "traffic_legislation",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#63",
+      "bank": "paper-a-answers.json",
+      "number": 63,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#64",
+      "bank": "paper-a-answers.json",
+      "number": 64,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#65",
+      "bank": "paper-a-answers.json",
+      "number": 65,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#66",
+      "bank": "paper-a-answers.json",
+      "number": 66,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#67",
+      "bank": "paper-a-answers.json",
+      "number": 67,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#68",
+      "bank": "paper-a-answers.json",
+      "number": 68,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#69",
+      "bank": "paper-a-answers.json",
+      "number": 69,
+      "topic": "road_signals",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#7",
+      "bank": "paper-a-answers.json",
+      "number": 7,
+      "topic": "regulatory_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#70",
+      "bank": "paper-a-answers.json",
+      "number": 70,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#79",
+      "bank": "paper-a-answers.json",
+      "number": 79,
+      "topic": "vehicle_controls",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#8",
+      "bank": "paper-a-answers.json",
+      "number": 8,
+      "topic": "warning_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#80",
+      "bank": "paper-a-answers.json",
+      "number": 80,
+      "topic": "vehicle_controls",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#81",
+      "bank": "paper-a-answers.json",
+      "number": 81,
+      "topic": "vehicle_controls",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#82",
+      "bank": "paper-a-answers.json",
+      "number": 82,
+      "topic": "traffic_legislation",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#83",
+      "bank": "paper-a-answers.json",
+      "number": 83,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#84",
+      "bank": "paper-a-answers.json",
+      "number": 84,
+      "topic": "rules_of_the_road",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#85",
+      "bank": "paper-a-answers.json",
+      "number": 85,
+      "topic": "traffic_legislation",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#86",
+      "bank": "paper-a-answers.json",
+      "number": 86,
+      "topic": "traffic_legislation",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#87",
+      "bank": "paper-a-answers.json",
+      "number": 87,
+      "topic": "traffic_legislation",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#88",
+      "bank": "paper-a-answers.json",
+      "number": 88,
+      "topic": "traffic_legislation",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#89",
+      "bank": "paper-a-answers.json",
+      "number": 89,
+      "topic": "traffic_legislation",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#9",
+      "bank": "paper-a-answers.json",
+      "number": 9,
+      "topic": "regulatory_signs",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "paper_a#90",
+      "bank": "paper-a-answers.json",
+      "number": 90,
+      "topic": "traffic_legislation",
+      "answerOrigin": "paper",
+      "answerReviewed": true,
+      "topicReviewed": false
+    },
+    {
+      "uid": "test_1#75",
+      "bank": "test1-answered.json",
+      "number": 75,
+      "topic": "motorcycles",
+      "answerOrigin": "manual",
+      "answerReviewed": false,
+      "topicReviewed": true
+    },
+    {
+      "uid": "test_1#78",
+      "bank": "test1-answered.json",
+      "number": 78,
+      "topic": "motorcycles",
+      "answerOrigin": "manual",
+      "answerReviewed": false,
+      "topicReviewed": true
+    },
+    {
+      "uid": "test_1#80",
+      "bank": "test1-answered.json",
+      "number": 80,
+      "topic": "vehicle_controls",
+      "answerOrigin": "manual",
+      "answerReviewed": false,
+      "topicReviewed": true
+    }
+  ],
+  "derivedAnswers": {
+    "available": 3,
+    "applied": 3,
+    "unreviewed": 3
+  },
+  "byTopic": {
+    "regulatory_signs": 6,
+    "warning_signs": 11,
+    "guidance_signs": 6,
+    "information_signs": 3,
+    "road_markings": 8,
+    "road_signals": 3,
+    "rules_of_the_road": 23,
+    "traffic_legislation": 9,
+    "vehicle_controls": 4,
+    "motorcycles": 2
+  },
+  "bySourceSection": {
+    "B": 36,
+    "C": 24,
+    "D": 2,
+    "E": 13
+  },
+  "byPaper": {
+    "paper1": {
+      "codes": [
+        "1"
+      ],
+      "canAssemble": false,
+      "reason": "blueprint not specified"
+    },
+    "paper2+3": {
+      "codes": [
+        "2",
+        "3"
+      ],
+      "canAssemble": false,
+      "freshAttempts": 0,
+      "slotsNeeded": 90,
+      "slotsFillable": 65,
+      "rows": [
+        {
+          "topic": "regulatory_signs",
+          "needs": 20,
+          "has": 6,
+          "ok": false,
+          "dutiesNeeded": 0,
+          "dutiesHas": null,
+          "dutiesOk": true
+        },
+        {
+          "topic": "warning_signs",
+          "needs": 15,
+          "has": 11,
+          "ok": false,
+          "dutiesNeeded": 0,
+          "dutiesHas": null,
+          "dutiesOk": true
+        },
+        {
+          "topic": "guidance_signs",
+          "needs": 7,
+          "has": 6,
+          "ok": false,
+          "dutiesNeeded": 0,
+          "dutiesHas": null,
+          "dutiesOk": true
+        },
+        {
+          "topic": "information_signs",
+          "needs": 4,
+          "has": 3,
+          "ok": false,
+          "dutiesNeeded": 0,
+          "dutiesHas": null,
+          "dutiesOk": true
+        },
+        {
+          "topic": "road_markings",
+          "needs": 9,
+          "has": 8,
+          "ok": false,
+          "dutiesNeeded": 0,
+          "dutiesHas": null,
+          "dutiesOk": true
+        },
+        {
+          "topic": "road_signals",
+          "needs": 6,
+          "has": 3,
+          "ok": false,
+          "dutiesNeeded": 0,
+          "dutiesHas": null,
+          "dutiesOk": true
+        },
+        {
+          "topic": "rules_of_the_road",
+          "needs": 15,
+          "has": 23,
+          "ok": true,
+          "dutiesNeeded": 5,
+          "dutiesHas": 2,
+          "dutiesOk": false
+        },
+        {
+          "topic": "traffic_legislation",
+          "needs": 10,
+          "has": 9,
+          "ok": false,
+          "dutiesNeeded": 0,
+          "dutiesHas": null,
+          "dutiesOk": true
+        },
+        {
+          "topic": "vehicle_controls",
+          "needs": 4,
+          "has": 4,
+          "ok": true,
+          "dutiesNeeded": 0,
+          "dutiesHas": null,
+          "dutiesOk": true
+        }
+      ]
+    }
+  },
+  "exclusionReasons": {
+    "practice section": 9,
+    "no answer stated": 174,
+    "no topic label": 186,
+    "artwork file missing": 42,
+    "status is blocked": 26,
+    "disputed answer": 7
+  },
+  "excluded": [
+    {
+      "uid": "test_1#1",
+      "bank": "test1-answered.json",
+      "number": 1,
+      "section": "A",
+      "topic": null,
+      "reasons": [
+        "practice section",
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "The speed limit for cars and light motor vehicles (not over 9000kg) in an urban area is?"
+    },
+    {
+      "uid": "test_1#2",
+      "bank": "test1-answered.json",
+      "number": 2,
+      "section": "A",
+      "topic": null,
+      "reasons": [
+        "practice section",
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "This sign indicates?"
+    },
+    {
+      "uid": "test_1#3",
+      "bank": "test1-answered.json",
+      "number": 3,
+      "section": "A",
+      "topic": null,
+      "reasons": [
+        "practice section",
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When is it prohibited to overtake?"
+    },
+    {
+      "uid": "test_1#4",
+      "bank": "test1-answered.json",
+      "number": 4,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "When you see this sign you should:"
+    },
+    {
+      "uid": "test_1#5",
+      "bank": "test1-answered.json",
+      "number": 5,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "This sign means that you should:"
+    },
+    {
+      "uid": "test_1#6",
+      "bank": "test1-answered.json",
+      "number": 6,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which vehicles may drive on a public road displaying this sign?"
+    },
+    {
+      "uid": "test_1#7",
+      "bank": "test1-answered.json",
+      "number": 7,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "You are most likely to find this sign:"
+    },
+    {
+      "uid": "test_1#8",
+      "bank": "test1-answered.json",
+      "number": 8,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign shows that this portion of the road is reserved for taxis?"
+    },
+    {
+      "uid": "test_1#9",
+      "bank": "test1-answered.json",
+      "number": 9,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign shows that this sign applies to motorcycles with an engine size limit?"
+    },
+    {
+      "uid": "test_1#10",
+      "bank": "test1-answered.json",
+      "number": 10,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign indicates there is a side road junction ahead?"
+    },
+    {
+      "uid": "test_1#11",
+      "bank": "test1-answered.json",
+      "number": 11,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "What does this sign mean?"
+    },
+    {
+      "uid": "test_1#12",
+      "bank": "test1-answered.json",
+      "number": 12,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign indicates possible presence of pedestrians ahead?"
+    },
+    {
+      "uid": "test_1#13",
+      "bank": "test1-answered.json",
+      "number": 13,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign indicates that the road narrows from both sides?"
+    },
+    {
+      "uid": "test_1#14",
+      "bank": "test1-answered.json",
+      "number": 14,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign indicates that the surface of the soft shoulder is about to change?"
+    },
+    {
+      "uid": "test_1#15",
+      "bank": "test1-answered.json",
+      "number": 15,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "You are most likely to see this sign:"
+    },
+    {
+      "uid": "test_1#16",
+      "bank": "test1-answered.json",
+      "number": 16,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign indicates there is a separation in the road ahead and the driver must go left or right?"
+    },
+    {
+      "uid": "test_1#17",
+      "bank": "test1-answered.json",
+      "number": 17,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "This sign indicates:"
+    },
+    {
+      "uid": "test_1#18",
+      "bank": "test1-answered.json",
+      "number": 18,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "What does this sign mean?"
+    },
+    {
+      "uid": "test_1#19",
+      "bank": "test1-answered.json",
+      "number": 19,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "What does this sign mean?"
+    },
+    {
+      "uid": "test_1#20",
+      "bank": "test1-answered.json",
+      "number": 20,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "What does this sign indicate?"
+    },
+    {
+      "uid": "test_1#21",
+      "bank": "test1-answered.json",
+      "number": 21,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "How should you react to this road marking?"
+    },
+    {
+      "uid": "test_1#22",
+      "bank": "test1-answered.json",
+      "number": 22,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which road marking indicates no stopping?"
+    },
+    {
+      "uid": "test_1#23",
+      "bank": "test1-answered.json",
+      "number": 23,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "What should you do when you approach this marking?"
+    },
+    {
+      "uid": "test_1#24",
+      "bank": "test1-answered.json",
+      "number": 24,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "If this light is flashing, you:"
+    },
+    {
+      "uid": "test_1#25",
+      "bank": "test1-answered.json",
+      "number": 25,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which flag signal means that you should proceed slowly?"
+    },
+    {
+      "uid": "test_1#26",
+      "bank": "test1-answered.json",
+      "number": 26,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign means that the road is only for delivery vehicles?"
+    },
+    {
+      "uid": "test_1#27",
+      "bank": "test1-answered.json",
+      "number": 27,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign shows the length limit for the vehicle allowed to drive on the road?"
+    },
+    {
+      "uid": "test_1#28",
+      "bank": "test1-answered.json",
+      "number": 28,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "When you see this sign below a regulatory sign, the sign applies:"
+    },
+    {
+      "uid": "test_1#29",
+      "bank": "test1-answered.json",
+      "number": 29,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign indicates there is a priority crossroad ahead?"
+    },
+    {
+      "uid": "test_1#30",
+      "bank": "test1-answered.json",
+      "number": 30,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "What does this sign mean?"
+    },
+    {
+      "uid": "test_1#31",
+      "bank": "test1-answered.json",
+      "number": 31,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign indicates there is a railway crossing ahead?"
+    },
+    {
+      "uid": "test_1#32",
+      "bank": "test1-answered.json",
+      "number": 32,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign indicates a town/city name?"
+    },
+    {
+      "uid": "test_1#33",
+      "bank": "test1-answered.json",
+      "number": 33,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign is a tourism route marker?"
+    },
+    {
+      "uid": "test_1#34",
+      "bank": "test1-answered.json",
+      "number": 34,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which of the following signs is a stack type advance direction marker?"
+    },
+    {
+      "uid": "test_1#35",
+      "bank": "test1-answered.json",
+      "number": 35,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which sign indicates that lanes merge?"
+    },
+    {
+      "uid": "test_1#36",
+      "bank": "test1-answered.json",
+      "number": 36,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "What does this sign mean?"
+    },
+    {
+      "uid": "test_1#37",
+      "bank": "test1-answered.json",
+      "number": 37,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "This sign indicates:"
+    },
+    {
+      "uid": "test_1#38",
+      "bank": "test1-answered.json",
+      "number": 38,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Who may park in this parking bay?"
+    },
+    {
+      "uid": "test_1#39",
+      "bank": "test1-answered.json",
+      "number": 39,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "What should you do when approaching this sign?"
+    },
+    {
+      "uid": "test_1#40",
+      "bank": "test1-answered.json",
+      "number": 40,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "Which road marking indicates the end of exclusive use lanes?"
+    },
+    {
+      "uid": "test_1#41",
+      "bank": "test1-answered.json",
+      "number": 41,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "What do these lines indicate?"
+    },
+    {
+      "uid": "test_1#42",
+      "bank": "test1-answered.json",
+      "number": 42,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "If you approach a steady red arrow light signal, you should:"
+    },
+    {
+      "uid": "test_1#43",
+      "bank": "test1-answered.json",
+      "number": 43,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "A steady red man light signals means:"
+    },
+    {
+      "uid": "test_1#44",
+      "bank": "test1-answered.json",
+      "number": 44,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What should you do if you see this sign?"
+    },
+    {
+      "uid": "test_1#45",
+      "bank": "test1-answered.json",
+      "number": 45,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "This hand signal indicates:"
+    },
+    {
+      "uid": "test_1#46",
+      "bank": "test1-answered.json",
+      "number": 46,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label",
+        "artwork file missing"
+      ],
+      "text": "This sign means that:"
+    },
+    {
+      "uid": "test_1#47",
+      "bank": "test1-answered.json",
+      "number": 47,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "The speed limit for buses or minibuses on a freeway is:"
+    },
+    {
+      "uid": "test_1#48",
+      "bank": "test1-answered.json",
+      "number": 48,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "On a two way road or highway, you should drive your vehicle in:"
+    },
+    {
+      "uid": "test_1#49",
+      "bank": "test1-answered.json",
+      "number": 49,
+      "section": "C",
+      "topic": "road_markings",
+      "reasons": [
+        "no answer stated"
+      ],
+      "text": "A section of the road is marked with double unbroken dividing lines. When is a vehicle allowed to cross these lines?"
+    },
+    {
+      "uid": "test_1#50",
+      "bank": "test1-answered.json",
+      "number": 50,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "If you want to overtake on the right, how will you indicate by using hand signals?"
+    },
+    {
+      "uid": "test_1#51",
+      "bank": "test1-answered.json",
+      "number": 51,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When you are towing another vehicle with a tow rope, chain or tow bar, the distance between the two vehicles should not "
+    },
+    {
+      "uid": "test_1#52",
+      "bank": "test1-answered.json",
+      "number": 52,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no topic label"
+      ],
+      "text": "If the brakes of a vehicle being towed are not working, it should be connected to the other vehicle with:"
+    },
+    {
+      "uid": "test_1#53",
+      "bank": "test1-answered.json",
+      "number": 53,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no topic label"
+      ],
+      "text": "You should not park your vehicle if it obstructs:"
+    },
+    {
+      "uid": "test_1#54",
+      "bank": "test1-answered.json",
+      "number": 54,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Which vehicles may stop and park anywhere necessary?"
+    },
+    {
+      "uid": "test_1#55",
+      "bank": "test1-answered.json",
+      "number": 55,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When is it compulsory to stop your vehicle?"
+    },
+    {
+      "uid": "test_1#56",
+      "bank": "test1-answered.json",
+      "number": 56,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "While driving a vehicle, cell phones:"
+    },
+    {
+      "uid": "test_1#57",
+      "bank": "test1-answered.json",
+      "number": 57,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Which of the following statements is correct?"
+    },
+    {
+      "uid": "test_1#58",
+      "bank": "test1-answered.json",
+      "number": 58,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Which of the following statements is correct?"
+    },
+    {
+      "uid": "test_1#59",
+      "bank": "test1-answered.json",
+      "number": 59,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When you are approaching a pedestrian crossing:"
+    },
+    {
+      "uid": "test_1#60",
+      "bank": "test1-answered.json",
+      "number": 60,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "A convoy may not travel on a public road:"
+    },
+    {
+      "uid": "test_1#61",
+      "bank": "test1-answered.json",
+      "number": 61,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Which vehicles may not be driven on a freeway?"
+    },
+    {
+      "uid": "test_1#62",
+      "bank": "test1-answered.json",
+      "number": 62,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no topic label"
+      ],
+      "text": "What is the maximum permissible length of a motor vehicle?"
+    },
+    {
+      "uid": "test_1#63",
+      "bank": "test1-answered.json",
+      "number": 63,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "A load that projects on either side of a motor vehicle may not exceed?"
+    },
+    {
+      "uid": "test_1#64",
+      "bank": "test1-answered.json",
+      "number": 64,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Goods carried on any vehicle that project to the rear may not exceed?"
+    },
+    {
+      "uid": "test_1#65",
+      "bank": "test1-answered.json",
+      "number": 65,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "How must you indicate a load projecting by more than 300mm to the rear when driving between sunset and sunrise?"
+    },
+    {
+      "uid": "test_1#66",
+      "bank": "test1-answered.json",
+      "number": 66,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "The speed limit for goods, articulated and combination vehicles (exceeding 9000 kg GVM) outside an urban area on tarred "
+    },
+    {
+      "uid": "test_1#67",
+      "bank": "test1-answered.json",
+      "number": 67,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What is the maximum speed limit for any vehicle towing another vehicle without a towbar or drawbar on any road?"
+    },
+    {
+      "uid": "test_1#68",
+      "bank": "test1-answered.json",
+      "number": 68,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What is a stopping distance?"
+    },
+    {
+      "uid": "test_1#69",
+      "bank": "test1-answered.json",
+      "number": 69,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When the first rains fall after a dry spell, you should drive:"
+    },
+    {
+      "uid": "test_1#70",
+      "bank": "test1-answered.json",
+      "number": 70,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When being overtaken by another vehicle, you should:"
+    },
+    {
+      "uid": "test_1#71",
+      "bank": "test1-answered.json",
+      "number": 71,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "A load projecting to the front when carried on a motorcycle may not exceed:"
+    },
+    {
+      "uid": "test_1#72",
+      "bank": "test1-answered.json",
+      "number": 72,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When must a passenger or driver of a motorcycle wear a protective helmet?"
+    },
+    {
+      "uid": "test_1#73",
+      "bank": "test1-answered.json",
+      "number": 73,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "A driver of a motorcycle on a public road needs to ensure that:"
+    },
+    {
+      "uid": "test_1#74",
+      "bank": "test1-answered.json",
+      "number": 74,
+      "section": "D",
+      "topic": "motorcycles",
+      "reasons": [
+        "no answer stated",
+        "artwork file missing"
+      ],
+      "text": "In the picture above which is the rear brake?"
+    },
+    {
+      "uid": "test_1#76",
+      "bank": "test1-answered.json",
+      "number": 76,
+      "section": "D",
+      "topic": "motorcycles",
+      "reasons": [
+        "no answer stated"
+      ],
+      "text": "The indicators on a motorcycle are used to:"
+    },
+    {
+      "uid": "test_1#77",
+      "bank": "test1-answered.json",
+      "number": 77,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no topic label"
+      ],
+      "text": "If someone has been killed or injured in an accident, you may:"
+    },
+    {
+      "uid": "test_1#79",
+      "bank": "test1-answered.json",
+      "number": 79,
+      "section": "E",
+      "topic": "vehicle_controls",
+      "reasons": [
+        "no answer stated",
+        "artwork file missing"
+      ],
+      "text": "In the picture above which is the steering wheel?"
+    },
+    {
+      "uid": "test_1#81",
+      "bank": "test1-answered.json",
+      "number": 81,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "You are driving at night with other cars on the road, you should have:"
+    },
+    {
+      "uid": "test_1#82",
+      "bank": "test1-answered.json",
+      "number": 82,
+      "section": "E",
+      "topic": "vehicle_controls",
+      "reasons": [
+        "no answer stated"
+      ],
+      "text": "The safe way to stop the vehicle is to:"
+    },
+    {
+      "uid": "test_1#83",
+      "bank": "test1-answered.json",
+      "number": 83,
+      "section": "E",
+      "topic": "vehicle_controls",
+      "reasons": [
+        "no answer stated"
+      ],
+      "text": "When driving slow and want to speed up, you:"
+    },
+    {
+      "uid": "test_1#84",
+      "bank": "test1-answered.json",
+      "number": 84,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "The purpose of the service brake is to:"
+    },
+    {
+      "uid": "test_1#85",
+      "bank": "test1-answered.json",
+      "number": 85,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What is the first thing you must do as a driver of a vehicle that is involved in an accident?"
+    },
+    {
+      "uid": "test_1#86",
+      "bank": "test1-answered.json",
+      "number": 86,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What is the maximum permissible length of an articulated motor vehicle (or combination of vehicle and semi-trailer)?"
+    },
+    {
+      "uid": "test_1#87",
+      "bank": "test1-answered.json",
+      "number": 87,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no topic label"
+      ],
+      "text": "What is the maximum permissible width of a motor vehicle?"
+    },
+    {
+      "uid": "test_1#88",
+      "bank": "test1-answered.json",
+      "number": 88,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "If your vehicle breaks down, a driver may not:"
+    },
+    {
+      "uid": "test_1#89",
+      "bank": "test1-answered.json",
+      "number": 89,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Which of the following statements is correct?"
+    },
+    {
+      "uid": "test_1#90",
+      "bank": "test1-answered.json",
+      "number": 90,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Which vehicles may be driven on a freeway?"
+    },
+    {
+      "uid": "test_3#1",
+      "bank": "test3-ocr.json",
+      "number": 1,
+      "section": "A",
+      "topic": null,
+      "reasons": [
+        "practice section",
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "The speed limit for cars and light motor vehicles (not over 9000kg) in an urban"
+    },
+    {
+      "uid": "test_3#2",
+      "bank": "test3-ocr.json",
+      "number": 2,
+      "section": "A",
+      "topic": null,
+      "reasons": [
+        "practice section",
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "This sign indicates:"
+    },
+    {
+      "uid": "test_3#3",
+      "bank": "test3-ocr.json",
+      "number": 3,
+      "section": "A",
+      "topic": null,
+      "reasons": [
+        "practice section",
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When is it prohibited to overtake?:"
+    },
+    {
+      "uid": "test_3#4",
+      "bank": "test3-ocr.json",
+      "number": 4,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "Which sign means that you should turn left?"
+    },
+    {
+      "uid": "test_3#5",
+      "bank": "test3-ocr.json",
+      "number": 5,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "Which sign means that the road is only for taxis? y Ma / |"
+    },
+    {
+      "uid": "test_3#6",
+      "bank": "test3-ocr.json",
+      "number": 6,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "Which sign shows that you may not turn left at the junction ahead?"
+    },
+    {
+      "uid": "test_3#7",
+      "bank": "test3-ocr.json",
+      "number": 7,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Which statement is correct?"
+    },
+    {
+      "uid": "test_3#8",
+      "bank": "test3-ocr.json",
+      "number": 8,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "You would most likely find this sign:"
+    },
+    {
+      "uid": "test_3#9",
+      "bank": "test3-ocr.json",
+      "number": 9,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "Which sign indicates there is a secondary crossroad ahead?"
+    },
+    {
+      "uid": "test_3#10",
+      "bank": "test3-ocr.json",
+      "number": 10,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "Which sign indicates a sharp curve?"
+    },
+    {
+      "uid": "test_3#12",
+      "bank": "test3-ocr.json",
+      "number": 12,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "should you do if you see this sign?"
+    },
+    {
+      "uid": "test_3#13",
+      "bank": "test3-ocr.json",
+      "number": 13,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "| Which sign indicates that the surface of the road is about to change?"
+    },
+    {
+      "uid": "test_3#14",
+      "bank": "test3-ocr.json",
+      "number": 14,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "| Which sign indicates that there is a speed bump ahead?"
+    },
+    {
+      "uid": "test_3#15",
+      "bank": "test3-ocr.json",
+      "number": 15,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "| Which sign indicates there is a dead end ahead?"
+    },
+    {
+      "uid": "test_3#16",
+      "bank": "test3-ocr.json",
+      "number": 16,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When you see this sign you should:"
+    },
+    {
+      "uid": "test_3#17",
+      "bank": "test3-ocr.json",
+      "number": 17,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "sign indicates an additional lane?"
+    },
+    {
+      "uid": "test_3#18",
+      "bank": "test3-ocr.json",
+      "number": 18,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "Which sign gives pre-advance exit for an arrestor bed?"
+    },
+    {
+      "uid": "test_3#19",
+      "bank": "test3-ocr.json",
+      "number": 19,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "| Which sign indicates a no through road?"
+    },
+    {
+      "uid": "test_3#20",
+      "bank": "test3-ocr.json",
+      "number": 20,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "Which road marking indicates that you must not enter the area unless your exit is clear?"
+    },
+    {
+      "uid": "test_3#21",
+      "bank": "test3-ocr.json",
+      "number": 21,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "How should you react to this road marking?"
+    },
+    {
+      "uid": "test_3#22",
+      "bank": "test3-ocr.json",
+      "number": 22,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "These signs indicate: |"
+    },
+    {
+      "uid": "test_3#23",
+      "bank": "test3-ocr.json",
+      "number": 23,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "If this light is flashing, you:"
+    },
+    {
+      "uid": "test_3#24",
+      "bank": "test3-ocr.json",
+      "number": 24,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "Which flag signal means that you should proceed?"
+    },
+    {
+      "uid": "test_3#25",
+      "bank": "test3-ocr.json",
+      "number": 25,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "‘If you see this sign, you should:"
+    },
+    {
+      "uid": "test_3#26",
+      "bank": "test3-ocr.json",
+      "number": 26,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "Which sign shows you to drive in a clockwise manner? Sd an"
+    },
+    {
+      "uid": "test_3#27",
+      "bank": "test3-ocr.json",
+      "number": 27,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "This sign means:"
+    },
+    {
+      "uid": "test_3#28",
+      "bank": "test3-ocr.json",
+      "number": 28,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "You would most likely find this sign:"
+    },
+    {
+      "uid": "test_3#29",
+      "bank": "test3-ocr.json",
+      "number": 29,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What should you do when you see this sign?"
+    },
+    {
+      "uid": "test_3#30",
+      "bank": "test3-ocr.json",
+      "number": 30,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "The marking indicates:"
+    },
+    {
+      "uid": "test_3#31",
+      "bank": "test3-ocr.json",
+      "number": 31,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "| Which sign indicates there is an overhead obstruction above the roadway?"
+    },
+    {
+      "uid": "test_3#32",
+      "bank": "test3-ocr.json",
+      "number": 32,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "| Which sign indicates there is a dual lane roadway ahead?"
+    },
+    {
+      "uid": "test_3#33",
+      "bank": "test3-ocr.json",
+      "number": 33,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "| Which sign indicates an advanced route marker?"
+    },
+    {
+      "uid": "test_3#34",
+      "bank": "test3-ocr.json",
+      "number": 34,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What colour indicates a tourism direction’sign?"
+    },
+    {
+      "uid": "test_3#35",
+      "bank": "test3-ocr.json",
+      "number": 35,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What does this sign mean?"
+    },
+    {
+      "uid": "test_3#36",
+      "bank": "test3-ocr.json",
+      "number": 36,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "If you see this sign, you:"
+    },
+    {
+      "uid": "test_3#37",
+      "bank": "test3-ocr.json",
+      "number": 37,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "How should you react to this road marking?"
+    },
+    {
+      "uid": "test_3#38",
+      "bank": "test3-ocr.json",
+      "number": 38,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Who may park in a bay with this road marking?"
+    },
+    {
+      "uid": "test_3#39",
+      "bank": "test3-ocr.json",
+      "number": 39,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "Which road marking indicates there is an arrestor bed ahead?"
+    },
+    {
+      "uid": "test_3#40",
+      "bank": "test3-ocr.json",
+      "number": 40,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What do these road markings indicate? | <4"
+    },
+    {
+      "uid": "test_3#41",
+      "bank": "test3-ocr.json",
+      "number": 41,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "This light means the bus driver:"
+    },
+    {
+      "uid": "test_3#42",
+      "bank": "test3-ocr.json",
+      "number": 42,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "If you approach a flashing green arrow light signal, you should:"
+    },
+    {
+      "uid": "test_3#43",
+      "bank": "test3-ocr.json",
+      "number": 43,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What should you do if you approach a traffic officer making this hand signal?"
+    },
+    {
+      "uid": "test_3#44",
+      "bank": "test3-ocr.json",
+      "number": 44,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Regulatory command signs are:"
+    },
+    {
+      "uid": "test_3#45",
+      "bank": "test3-ocr.json",
+      "number": 45,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "You are intending to drive straight on at an intersection where this sign is displayed. What are you required to do?"
+    },
+    {
+      "uid": "test_3#46",
+      "bank": "test3-ocr.json",
+      "number": 46,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Which vehicles may drive on a public road displaying this sign?"
+    },
+    {
+      "uid": "test_3#47",
+      "bank": "test3-ocr.json",
+      "number": 47,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "The speed limit for cars and light motor vehicles (not over 9000kg) outside an urban area on gravel roads is:"
+    },
+    {
+      "uid": "test_3#48",
+      "bank": "test3-ocr.json",
+      "number": 48,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Before beginning to overtake another vehicle, you should:"
+    },
+    {
+      "uid": "test_3#49",
+      "bank": "test3-ocr.json",
+      "number": 49,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "It is not safe for you to enter a public road unless;"
+    },
+    {
+      "uid": "test_3#50",
+      "bank": "test3-ocr.json",
+      "number": 50,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When you are turning right from a one way street. Where should you start your turn?"
+    },
+    {
+      "uid": "test_3#51",
+      "bank": "test3-ocr.json",
+      "number": 51,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "‘If you are not using a tow bar or a draw bar, what is the speed limit for being towed?"
+    },
+    {
+      "uid": "test_3#52",
+      "bank": "test3-ocr.json",
+      "number": 52,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Are you allowed to overtake the State motorcade?"
+    },
+    {
+      "uid": "test_3#53",
+      "bank": "test3-ocr.json",
+      "number": 53,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "You should not park within what distance from an intersection?"
+    },
+    {
+      "uid": "test_3#54",
+      "bank": "test3-ocr.json",
+      "number": 54,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When is it compulsory to stop your vehicle?"
+    },
+    {
+      "uid": "test_3#55",
+      "bank": "test3-ocr.json",
+      "number": 55,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "While driving a vehicle, seatbelts:"
+    },
+    {
+      "uid": "test_3#56",
+      "bank": "test3-ocr.json",
+      "number": 56,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "As adriver of a motor vehicle, you may not:"
+    },
+    {
+      "uid": "test_3#57",
+      "bank": "test3-ocr.json",
+      "number": 57,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "While driving your vehicle, you may:"
+    },
+    {
+      "uid": "test_3#58",
+      "bank": "test3-ocr.json",
+      "number": 58,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "you see a scholar patrol, you must wait until the children:"
+    },
+    {
+      "uid": "test_3#59",
+      "bank": "test3-ocr.json",
+      "number": 59,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Aconvoy is a:"
+    },
+    {
+      "uid": "test_3#60",
+      "bank": "test3-ocr.json",
+      "number": 60,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Which of the following statements is correct?"
+    },
+    {
+      "uid": "test_3#61",
+      "bank": "test3-ocr.json",
+      "number": 61,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When driving a motor cycle the headlights must be on:"
+    },
+    {
+      "uid": "test_3#62",
+      "bank": "test3-ocr.json",
+      "number": 62,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What is the maximum width of a goods vehicle over 12000kg GVM?"
+    },
+    {
+      "uid": "test_3#63",
+      "bank": "test3-ocr.json",
+      "number": 63,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Aload that projects on either side of a bus may not exceed:"
+    },
+    {
+      "uid": "test_3#64",
+      "bank": "test3-ocr.json",
+      "number": 64,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Any load on a vehicle must:"
+    },
+    {
+      "uid": "test_3#65",
+      "bank": "test3-ocr.json",
+      "number": 65,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "The speed limit for goods, articulated and combination vehicles (exceeding 9000 kg GVM) in an urban area is:"
+    },
+    {
+      "uid": "test_3#66",
+      "bank": "test3-ocr.json",
+      "number": 66,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "What is the maximum speed limit for any vehicle towing another vehicle with a towbar or drawbar on a freeway?"
+    },
+    {
+      "uid": "test_3#67",
+      "bank": "test3-ocr.json",
+      "number": 67,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When you are approaching a school, you should:"
+    },
+    {
+      "uid": "test_3#68",
+      "bank": "test3-ocr.json",
+      "number": 68,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When you are approaching some roadworks, you should:"
+    },
+    {
+      "uid": "test_3#69",
+      "bank": "test3-ocr.json",
+      "number": 69,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "If safe, you may overtake another vehicle in front, which is not signalling on an unlaned road:"
+    },
+    {
+      "uid": "test_3#70",
+      "bank": "test3-ocr.json",
+      "number": 70,
+      "section": "C",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "You may pass on the left side of another vehicle if the vehicle is:"
+    },
+    {
+      "uid": "test_3#71",
+      "bank": "test3-ocr.json",
+      "number": 71,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "| What is the maximum permissible length of a load that can project to the rear carried by a motorcycle?"
+    },
+    {
+      "uid": "test_3#72",
+      "bank": "test3-ocr.json",
+      "number": 72,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "of a motorcycle must:"
+    },
+    {
+      "uid": "test_3#73",
+      "bank": "test3-ocr.json",
+      "number": 73,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "— In the picture above which is the front brake?"
+    },
+    {
+      "uid": "test_3#74",
+      "bank": "test3-ocr.json",
+      "number": 74,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Where is the speedometer found on a motorcycle?"
+    },
+    {
+      "uid": "test_3#76",
+      "bank": "test3-ocr.json",
+      "number": 76,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "The best way to stop a motorcycle is to apply:"
+    },
+    {
+      "uid": "test_3#77",
+      "bank": "test3-ocr.json",
+      "number": 77,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "a motor cycle you use:"
+    },
+    {
+      "uid": "test_3#78",
+      "bank": "test3-ocr.json",
+      "number": 78,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When you are riding a motorcycle on a public road, you use the footrest to:"
+    },
+    {
+      "uid": "test_3#79",
+      "bank": "test3-ocr.json",
+      "number": 79,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": ""
+    },
+    {
+      "uid": "test_3#80",
+      "bank": "test3-ocr.json",
+      "number": 80,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "You are driving at night, with no other cars on the road you should have:"
+    },
+    {
+      "uid": "test_3#81",
+      "bank": "test3-ocr.json",
+      "number": 81,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When you are driving in a vehicle and wish to check your speed, you check the:"
+    },
+    {
+      "uid": "test_3#82",
+      "bank": "test3-ocr.json",
+      "number": 82,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When you are driving a manual gear vehicle and need to change gears, you:"
+    },
+    {
+      "uid": "test_3#83",
+      "bank": "test3-ocr.json",
+      "number": 83,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "To move your vehicle from a stationary position, you should do the following in sequence:"
+    },
+    {
+      "uid": "test_3#84",
+      "bank": "test3-ocr.json",
+      "number": 84,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "In amanual vehicle, how do you select a gear?"
+    },
+    {
+      "uid": "test_3#85",
+      "bank": "test3-ocr.json",
+      "number": 85,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "You are driving a vehicle past an accident that you were not involved in. You see other people assisting the injured. Yo"
+    },
+    {
+      "uid": "test_3#86",
+      "bank": "test3-ocr.json",
+      "number": 86,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "What is the maximum permissible width of a bus?"
+    },
+    {
+      "uid": "test_3#88",
+      "bank": "test3-ocr.json",
+      "number": 88,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "- As adriver of a vehicle, you may not:"
+    },
+    {
+      "uid": "test_3#89",
+      "bank": "test3-ocr.json",
+      "number": 89,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "You may only drag or spin the wheels of a vehicle on the public road:"
+    },
+    {
+      "uid": "test_3#90",
+      "bank": "test3-ocr.json",
+      "number": 90,
+      "section": "E",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "status is blocked",
+        "no topic label"
+      ],
+      "text": "When should you have your headlights on when you are driving your vehicle?"
+    },
+    {
+      "uid": "paper_a#1",
+      "bank": "paper-a-answers.json",
+      "number": 1,
+      "section": "A",
+      "topic": null,
+      "reasons": [
+        "practice section",
+        "no topic label"
+      ],
+      "text": "Which statement is correct?"
+    },
+    {
+      "uid": "paper_a#2",
+      "bank": "paper-a-answers.json",
+      "number": 2,
+      "section": "A",
+      "topic": null,
+      "reasons": [
+        "practice section",
+        "no topic label"
+      ],
+      "text": "The following sign indicates:"
+    },
+    {
+      "uid": "paper_a#3",
+      "bank": "paper-a-answers.json",
+      "number": 3,
+      "section": "A",
+      "topic": null,
+      "reasons": [
+        "practice section",
+        "no topic label"
+      ],
+      "text": "When intending to overtake, you must:"
+    },
+    {
+      "uid": "paper_a#4",
+      "bank": "paper-a-answers.json",
+      "number": 4,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "disputed answer",
+        "no topic label"
+      ],
+      "text": "Which sign means that you should turn left?"
+    },
+    {
+      "uid": "paper_a#5",
+      "bank": "paper-a-answers.json",
+      "number": 5,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "disputed answer",
+        "no topic label"
+      ],
+      "text": "This sign means that you should:"
+    },
+    {
+      "uid": "paper_a#6",
+      "bank": "paper-a-answers.json",
+      "number": 6,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "disputed answer",
+        "no topic label"
+      ],
+      "text": "What does this sign mean?"
+    },
+    {
+      "uid": "paper_a#12",
+      "bank": "paper-a-answers.json",
+      "number": 12,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "disputed answer",
+        "no topic label"
+      ],
+      "text": "You would most likely find this sign when:"
+    },
+    {
+      "uid": "paper_a#41",
+      "bank": "paper-a-answers.json",
+      "number": 41,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "disputed answer",
+        "no topic label"
+      ],
+      "text": "What do these lane lines indicate?"
+    },
+    {
+      "uid": "paper_a#43",
+      "bank": "paper-a-answers.json",
+      "number": 43,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "disputed answer",
+        "no topic label"
+      ],
+      "text": "If this light is flashing, you:"
+    },
+    {
+      "uid": "paper_a#45",
+      "bank": "paper-a-answers.json",
+      "number": 45,
+      "section": "B",
+      "topic": null,
+      "reasons": [
+        "disputed answer",
+        "no topic label"
+      ],
+      "text": "Which hand signal used by traffic officers means that you should proceed?"
+    },
+    {
+      "uid": "paper_a#71",
+      "bank": "paper-a-answers.json",
+      "number": 71,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "In the picture above which is the throttle?:"
+    },
+    {
+      "uid": "paper_a#72",
+      "bank": "paper-a-answers.json",
+      "number": 72,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "In the picture above which is the handlebar?:"
+    },
+    {
+      "uid": "paper_a#73",
+      "bank": "paper-a-answers.json",
+      "number": 73,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "In the picture above which is the rear brake?:"
+    },
+    {
+      "uid": "paper_a#74",
+      "bank": "paper-a-answers.json",
+      "number": 74,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When must a passenger or driver of a motorcycle wear a protective helmet ?:"
+    },
+    {
+      "uid": "paper_a#75",
+      "bank": "paper-a-answers.json",
+      "number": 75,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "When riding a motorcycle, the headlamp must be switched on:"
+    },
+    {
+      "uid": "paper_a#76",
+      "bank": "paper-a-answers.json",
+      "number": 76,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "A rider of a motorcycle must:"
+    },
+    {
+      "uid": "paper_a#77",
+      "bank": "paper-a-answers.json",
+      "number": 77,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "A rider of a motorcycle on a public road needs to ensure that:"
+    },
+    {
+      "uid": "paper_a#78",
+      "bank": "paper-a-answers.json",
+      "number": 78,
+      "section": "D",
+      "topic": null,
+      "reasons": [
+        "no answer stated",
+        "no topic label"
+      ],
+      "text": "Whose responsibility is it to ensure passengers under 14 wear a helmet?:"
+    }
+  ]
+}

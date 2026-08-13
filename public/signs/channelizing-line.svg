@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.45 35.3" width="84.45" height="35.3">
+  <defs>
+    <style>
+    .cls-37 { fill: #bcbdc0; }
+    .cls-18 { fill: #010101; }
+    .cls-31 { fill: #fff; }
+    </style>
+  </defs>
+  <g transform="translate(-96.92 -86.28)">
+    <rect x="98.92" y="88.28" width="80.45" height="31.3" class="cls-37"/>
+    <polygon points="104.03 110.57 104.03 113.29 111.23 111.93 104.03 110.57" class="cls-18"/>
+    <polygon points="103.99 95.66 103.99 98.37 103.99 95.66 111.19 97.1 103.99 98.37 103.99 95.66" class="cls-18"/>
+    <polygon points="171.31 103.12 103.18 103.12 103.03 104.3 103.26 106.17 103.26 106.42 103.18 105.83 175.23 105.83 175.31 104.73 175.31 103.46 175.16 103.2 171.31 103.12" class="cls-31"/>
+  </g>
+</svg>

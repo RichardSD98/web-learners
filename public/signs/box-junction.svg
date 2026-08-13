@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.59 47.79" width="84.59" height="47.79">
+  <defs>
+    <style>
+    .cls-24 { fill: #bcbdc0; }
+    .cls-29 { fill: none; stroke: #fff200; stroke-width: 1.06px; }
+    </style>
+  </defs>
+  <g transform="translate(-97.61 -30.41)">
+    <rect x="99.61" y="32.41" width="80.59" height="43.79" class="cls-24"/>
+    <path d="M146.75,73.32l24.41-25.47M126.06,73.14l36.08-36.79M104.84,72.79l38.2-36.97M164.44,36.18l6.72,6.19M144.63,36l26.53,25.47M161.61,73.14l-36.96-37.14-20.69,20.16,16.98,17.33M104.07,36.06l37.73,37.08M171.28,73.08h-67.21v-37.02h67.21v37.02Z" class="cls-29"/>
+    <polygon points="178.59 56.52 173.98 54.81 173.98 58.12 178.59 56.52"/>
+  </g>
+</svg>

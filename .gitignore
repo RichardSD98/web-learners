@@ -32,6 +32,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# ...except the documented template, which carries no secrets and states what
+# the preview flag does and why it defaults to off.
+!.env.example
 
 # vercel
 .vercel

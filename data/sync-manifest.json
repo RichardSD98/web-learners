@@ -1,0 +1,83 @@
+{
+  "sources": {
+    "questions": "C:\\Users\\Shahied\\Projects\\learners",
+    "signs": "C:\\Users\\Shahied\\Projects\\learners-svg"
+  },
+  "banks": [
+    {
+      "file": "paper-a-answers.json",
+      "from": "data/paper-a-answers.json",
+      "source": "extractor",
+      "bytes": 79174
+    },
+    {
+      "file": "paper-a-markup.json",
+      "from": "data/paper-a-markup.json",
+      "source": "extractor",
+      "bytes": 78286
+    },
+    {
+      "file": "paper-a.json",
+      "from": "data/paper-a.json",
+      "source": "extractor",
+      "bytes": 76741
+    },
+    {
+      "file": "test1-answered.json",
+      "from": "data/test1-answered.json",
+      "source": "extractor",
+      "bytes": 59119
+    },
+    {
+      "file": "test1-ocr.json",
+      "from": "data/test1-ocr.json",
+      "source": "extractor",
+      "bytes": 70701
+    },
+    {
+      "file": "test3-ocr.json",
+      "from": "data/test3-ocr.json",
+      "source": "extractor",
+      "bytes": 71303
+    },
+    {
+      "file": "questions-test1.json",
+      "from": "questions-test1.json",
+      "source": "extractor",
+      "bytes": 36853
+    }
+  ],
+  "knowledge": [
+    {
+      "file": "facts.json",
+      "from": "data/facts.json",
+      "source": "extractor",
+      "bytes": 235934
+    },
+    {
+      "file": "book.json",
+      "from": "data/book.json",
+      "source": "extractor",
+      "bytes": 354658
+    },
+    {
+      "file": "answers-from-facts.json",
+      "from": "data/answers-from-facts.json",
+      "source": "extractor",
+      "bytes": 1765
+    }
+  ],
+  "signCatalogue": {
+    "file": "signs.json",
+    "from": "data/signs.json",
+    "source": "sign pipeline",
+    "signs": 495
+  },
+  "signSvgCount": 495,
+  "signSvgBytes": 2417378,
+  "artwork": {
+    "Test_paper_with_answers": 51,
+    "TEST_PAPER_A-1-1": 51
+  },
+  "signSvgMissing": []
+}

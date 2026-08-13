@@ -1,0 +1,43 @@
+{
+  "$schema_version": "1.0",
+  "note": "Answers filled from data/facts.json, each citing the fact and the manual folio and paragraph it came from. Not written into any bank: the banks hold what the papers state, and this holds what the manual states about them.",
+  "rules": {
+    "stem-anchored": "the stem names a control; one option is wholly supported by the manual's description of it and the others are not",
+    "option-anchored": "the stem describes a function; exactly one control's stated function matches it clearly, and one option names that control"
+  },
+  "answers": [
+    {
+      "uid": "test_1#75",
+      "answer": "C",
+      "answer_source": "LEARNERS_BOOK.pdf folio 14 para 1 (f-vehicle-controls-005)",
+      "fact_id": "f-vehicle-controls-005",
+      "rule": "stem-anchored",
+      "manual_page": 14,
+      "manual_paragraph": 1,
+      "basis": "the manual's entry for 'Clutch lever' states option C",
+      "reviewed": false
+    },
+    {
+      "uid": "test_1#78",
+      "answer": "B",
+      "answer_source": "LEARNERS_BOOK.pdf folio 14 para 1 (f-vehicle-controls-004)",
+      "fact_id": "f-vehicle-controls-004",
+      "rule": "option-anchored",
+      "manual_page": 14,
+      "manual_paragraph": 1,
+      "basis": "the manual states 'Mirror' does what the stem describes; option B names it",
+      "reviewed": false
+    },
+    {
+      "uid": "test_1#80",
+      "answer": "B",
+      "answer_source": "LEARNERS_BOOK.pdf folio 15 para 2 (f-vehicle-controls-016)",
+      "fact_id": "f-vehicle-controls-016",
+      "rule": "stem-anchored",
+      "manual_page": 15,
+      "manual_paragraph": 2,
+      "basis": "the manual's entry for 'Ignition switch' states option B",
+      "reviewed": false
+    }
+  ]
+}

@@ -1,0 +1,2944 @@
+{
+  "$schema_version": "1.0",
+  "source": {
+    "title": "Theoretical Test Questions for the Learner's Licence",
+    "authority": "Ministry of Works and Transport (Namibia)",
+    "paper": "Test_1",
+    "quality_assurance": "Namibian German Centre for Logistics (Polytechnic of Namibia)",
+    "scan_file": "Test_1.pdf",
+    "answer_key_included": false
+  },
+  "test_rules": {
+    "time_limit_minutes": null,
+    "options_per_question": 3,
+    "option_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "sections_by_code": {
+      "1": [
+        "B",
+        "C",
+        "D"
+      ],
+      "2": [
+        "B",
+        "C",
+        "E"
+      ],
+      "3": [
+        "B",
+        "C",
+        "E"
+      ]
+    }
+  },
+  "sections": {
+    "A": {
+      "title": "*Road Signs - Control Signs",
+      "is_example_section": true,
+      "codes": []
+    },
+    "B": {
+      "title": "Road Signs - All Codes",
+      "is_example_section": false,
+      "codes": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "C": {
+      "title": "Rules - All Codes",
+      "is_example_section": false,
+      "codes": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "D": {
+      "title": "Motor Cycles Only",
+      "is_example_section": false,
+      "codes": [
+        "1"
+      ]
+    },
+    "E": {
+      "title": "Light And Heavy Vehicles Only",
+      "is_example_section": false,
+      "codes": [
+        "2",
+        "3"
+      ]
+    }
+  },
+  "field_notes": {
+    "answer": "Only ever read from a mark the source document actually makes. Never inferred, scored or guessed. null means the source does not state an answer.",
+    "answer_source": "Where the answer was read from, as <file>#q<number>.",
+    "needs_official_source": "Human-curation field. Always null from the extractor.",
+    "category": "Human-curation field. Always null from the extractor.",
+    "image": "null = pure text question. 'single' = one picture in the stem. 'options' = each of A/B/C is itself a picture. 'labelled_diagram' = options refer to callouts on a diagram.",
+    "status": "ok = structurally complete. blocked = unusable as-is, see blocked_reason."
+  },
+  "extraction": {
+    "path": "B (OCR via tesseract, 300 dpi, psm 6)",
+    "pdf_kind": "scan",
+    "pages": 21,
+    "questions_found": 87,
+    "answers_read": 0,
+    "dpi": 300,
+    "psm": 6,
+    "lang": "eng",
+    "engine": "tesseract",
+    "min_word_confidence": 30.0
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "number": 1,
+      "section": "A",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": true,
+      "text": "The speed limit for cars and light motor vehicles (not over 9000kg) in an urban area is?",
+      "options": {
+        "A": "60km/h",
+        "B": "80km/h",
+        "C": "40km/h"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 3,
+      "source_bbox": [
+        31.0,
+        267.1,
+        529.2,
+        327.8
+      ]
+    },
+    {
+      "id": "q002",
+      "number": 2,
+      "section": "A",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": true,
+      "text": "This sign indicates?",
+      "options": {
+        "A": "Right of way",
+        "B": "Through road",
+        "C": "Cul-de-sac"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          28.1,
+          381.1,
+          191.5,
+          488.2
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 3,
+      "source_bbox": [
+        28.1,
+        369.1,
+        191.5,
+        531.6
+      ]
+    },
+    {
+      "id": "q003",
+      "number": 3,
+      "section": "A",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": true,
+      "text": "When is it prohibited to overtake?:",
+      "options": {
+        "A": "Onasummit of a rise",
+        "B": "Ona public road",
+        "C": "Onanarrow road"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 3,
+      "source_bbox": [
+        15.1,
+        572.4,
+        530.6,
+        633.6
+      ]
+    },
+    {
+      "id": "q004",
+      "number": 4,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "When you see this sign you should:",
+      "options": {
+        "A": "Choose one of the four roads ahead",
+        "B": "Stop until your road is clear",
+        "C": "Stop until all the other vehicles that stopped before you have cleared the intersection"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          52.8,
+          104.2,
+          562.8,
+          228.7
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 4,
+      "source_bbox": [
+        52.8,
+        92.6,
+        562.8,
+        274.1
+      ]
+    },
+    {
+      "id": "q005",
+      "number": 5,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "This signs means that you should:",
+      "options": {
+        "A": "Drive no faster than 50km/hour",
+        "B": "Drive at least 50km/hour or faster",
+        "C": "Drive for 50km"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          52.8,
+          308.2,
+          291.6,
+          398.9
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 4,
+      "source_bbox": [
+        52.8,
+        296.9,
+        291.6,
+        441.8
+      ]
+    },
+    {
+      "id": "q006",
+      "number": 6,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which vehicles may drive on a public road displaying this sign?",
+      "options": {
+        "A": "Minibuses",
+        "B": "Midibuses”",
+        "C": "Buses"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          52.1,
+          478.1,
+          423.8,
+          568.3
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 4,
+      "source_bbox": [
+        52.1,
+        466.3,
+        423.8,
+        611.8
+      ]
+    },
+    {
+      "id": "q007",
+      "number": 7,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "You are most likely to find this sign:",
+      "options": {
+        "A": "street",
+        "B": "When parking if not allowed",
+        "C": "When overtaking is not allowed"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          51.8,
+          647.8,
+          279.6,
+          738.0
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 4,
+      "source_bbox": [
+        51.8,
+        636.2,
+        279.6,
+        783.1
+      ]
+    },
+    {
+      "id": "q008",
+      "number": 8,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which sign shows that this portion of the road is reserved for taxis?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "labelled_diagram",
+        "ref": null,
+        "labels": [
+          "a",
+          "b"
+        ],
+        "bbox": [
+          30.2,
+          68.9,
+          424.1,
+          161.8
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 5,
+      "source_bbox": [
+        30.2,
+        56.9,
+        424.1,
+        218.6
+      ]
+    },
+    {
+      "id": "q009",
+      "number": 9,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which sign shows that this sign applies to motorcycles with an engine size limit?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          29.5,
+          272.6,
+          493.0,
+          362.9
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 5,
+      "source_bbox": [
+        29.5,
+        260.6,
+        493.0,
+        405.8
+      ]
+    },
+    {
+      "id": "q010",
+      "number": 10,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "| Which sign indicates there is a side road junction ahead?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          29.8,
+          443.0,
+          369.1,
+          532.8
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 5,
+      "source_bbox": [
+        29.8,
+        429.6,
+        369.1,
+        575.8
+      ]
+    },
+    {
+      "id": "q011",
+      "number": 11,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "What does this sign mean?",
+      "options": {
+        "A": "There is a winding road ahead.",
+        "B": "There is a hairpin bend ahead",
+        "C": "There are two sharp curves ahead"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          15.1,
+          611.8,
+          273.6,
+          697.0
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 5,
+      "source_bbox": [
+        15.1,
+        600.2,
+        273.6,
+        747.1
+      ]
+    },
+    {
+      "id": "q012",
+      "number": 12,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "-Which sign indicates possible presence of pedestrians ahead?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          51.1,
+          66.7,
+          418.8,
+          174.2
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 6,
+      "source_bbox": [
+        51.1,
+        53.3,
+        418.8,
+        217.2
+      ]
+    },
+    {
+      "id": "q013",
+      "number": 13,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which sign indicates that the road narrows from both sides?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          51.8,
+          253.7,
+          405.8,
+          344.2
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 6,
+      "source_bbox": [
+        51.8,
+        240.0,
+        405.8,
+        387.1
+      ]
+    },
+    {
+      "id": "q014",
+      "number": 14,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which sign indicates that the surface of the soft shoulder is about to change?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          52.8,
+          423.4,
+          498.0,
+          514.1
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 6,
+      "source_bbox": [
+        52.8,
+        409.2,
+        498.0,
+        557.0
+      ]
+    },
+    {
+      "id": "q015",
+      "number": 15,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "You are most likely to see this sign:",
+      "options": {
+        "A": "Atroad works",
+        "B": "Where there are a possibility of loose stones",
+        "C": "Where there is a possibility of fallen rocks"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          54.0,
+          592.6,
+          351.8,
+          683.0
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 6,
+      "source_bbox": [
+        54.0,
+        580.6,
+        351.8,
+        728.2
+      ]
+    },
+    {
+      "id": "q016",
+      "number": 16,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "| Which sign indicates there is a separation in the road ahead and the driver must right?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          37.7,
+          83.5,
+          553.4,
+          241.9
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 7,
+      "source_bbox": [
+        37.7,
+        53.8,
+        553.4,
+        285.6
+      ]
+    },
+    {
+      "id": "q017",
+      "number": 17,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "This sign indicates:",
+      "options": {
+        "A": "Guinea fowl in the road",
+        "B": "You are entering an area prone to birds in the road",
+        "C": "You are entering a conservancy area"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          31.9,
+          322.3,
+          358.3,
+          446.2
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 7,
+      "source_bbox": [
+        31.9,
+        309.6,
+        358.3,
+        494.6
+      ]
+    },
+    {
+      "id": "q018",
+      "number": 18,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "| What does de this thin sign mean?",
+      "options": {
+        "A": "One lane is closed",
+        "B": "One lane has an added restriction",
+        "C": "One lane merges"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          28.1,
+          527.8,
+          266.4,
+          650.2
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 7,
+      "source_bbox": [
+        28.1,
+        507.1,
+        266.4,
+        696.7
+      ]
+    },
+    {
+      "id": "q019",
+      "number": 19,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "What does this sign mean?",
+      "options": {
+        "A": "Trucks only ahead",
+        "B": "Trucks to engage high gear",
+        "C": "Trucks to engage low gear eee"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          56.6,
+          68.6,
+          571.2,
+          175.2
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 8,
+      "source_bbox": [
+        56.6,
+        56.2,
+        571.2,
+        244.1
+      ]
+    },
+    {
+      "id": "q020",
+      "number": 20,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "What does this sign indicate?",
+      "options": {
+        "A": "Countdown to a high speed exit",
+        "B": "Countdown to high speed vehicle",
+        "C": "Countdown to an exit sign"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          53.5,
+          255.4,
+          290.2,
+          396.0
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 8,
+      "source_bbox": [
+        53.5,
+        243.1,
+        290.2,
+        442.6
+      ]
+    },
+    {
+      "id": "q021",
+      "number": 21,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "How should you react to this road marking?",
+      "options": {
+        "A": "Only stop in an emergency",
+        "B": "Do not stop next to the line",
+        "C": "Park next to the line"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          51.1,
+          477.1,
+          318.5,
+          549.1
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 8,
+      "source_bbox": [
+        51.1,
+        463.9,
+        318.5,
+        593.0
+      ]
+    },
+    {
+      "id": "q022",
+      "number": 22,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which road marking indicates no stopping?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          49.9,
+          629.8,
+          489.8,
+          701.5
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 8,
+      "source_bbox": [
+        49.9,
+        617.0,
+        489.8,
+        744.7
+      ]
+    },
+    {
+      "id": "q023",
+      "number": 23,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "| What should you do when you approach this marking?",
+      "options": {
+        "A": "Stop and park",
+        "B": "Reduce your speed",
+        "C": "Slow down and yield"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          30.2,
+          68.6,
+          355.4,
+          140.9
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 9,
+      "source_bbox": [
+        30.2,
+        55.4,
+        355.4,
+        186.7
+      ]
+    },
+    {
+      "id": "q024",
+      "number": 24,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "If this light is flashing, you:",
+      "options": {
+        "A": "Proceed with caution",
+        "B": "Stop the vehicle until it stops flashing",
+        "C": "Actas for a four way stop"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          29.8,
+          220.8,
+          287.5,
+          311.0
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 9,
+      "source_bbox": [
+        29.8,
+        209.3,
+        287.5,
+        356.4
+      ]
+    },
+    {
+      "id": "q025",
+      "number": 25,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "flag signal means that you should proceed slowly?",
+      "options": {
+        "A": "A",
+        "B": "",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "labelled_diagram",
+        "ref": null,
+        "labels": [
+          "a",
+          "e"
+        ],
+        "bbox": [
+          29.5,
+          390.7,
+          453.4,
+          400.6
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) B, C. Left empty rather than filled in; verify against the source page.",
+      "page": 9,
+      "source_bbox": [
+        29.5,
+        379.0,
+        453.4,
+        523.9
+      ]
+    },
+    {
+      "id": "q026",
+      "number": 26,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which sign means that the road is only for delivery vehicles?:",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          29.0,
+          594.2,
+          390.2,
+          701.8
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 9,
+      "source_bbox": [
+        29.0,
+        582.2,
+        390.2,
+        744.7
+      ]
+    },
+    {
+      "id": "q028",
+      "number": 28,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "When you see this sign below a regulatory sign, the sign applies: “>",
+      "options": {
+        "A": "Only during the daytime",
+        "B": "Not during the daytime",
+        "C": "Only during the night-time"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          56.2,
+          260.2,
+          437.0,
+          391.7
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 10,
+      "source_bbox": [
+        56.2,
+        237.6,
+        437.0,
+        439.4
+      ]
+    },
+    {
+      "id": "q029",
+      "number": 29,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which sign indicates there is a priority crossroad ahead?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          50.9,
+          475.0,
+          388.6,
+          560.9
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 10,
+      "source_bbox": [
+        50.9,
+        458.6,
+        388.6,
+        604.6
+      ]
+    },
+    {
+      "id": "q030",
+      "number": 30,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "| What does this sign mean?",
+      "options": {
+        "A": "Beware roadworks",
+        "B": "Beware animals on the road",
+        "C": "Beware of any hazard"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          43.4,
+          643.4,
+          292.6,
+          730.6
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 10,
+      "source_bbox": [
+        43.4,
+        627.4,
+        292.6,
+        777.4
+      ]
+    },
+    {
+      "id": "q031",
+      "number": 31,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "| Which sign indicates there is a railway crossing ahead?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          30.7,
+          64.3,
+          361.2,
+          169.9
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 11,
+      "source_bbox": [
+        30.7,
+        50.4,
+        361.2,
+        212.9
+      ]
+    },
+    {
+      "id": "q032",
+      "number": 32,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which sign indicates a town/city name?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          30.0,
+          250.6,
+          295.2,
+          306.2
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 11,
+      "source_bbox": [
+        30.0,
+        236.9,
+        295.2,
+        349.2
+      ]
+    },
+    {
+      "id": "q033",
+      "number": 33,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "| Which sign is a tourism route marker? B",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          29.5,
+          506.2,
+          377.5,
+          527.0
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 11,
+      "source_bbox": [
+        29.5,
+        373.2,
+        377.5,
+        570.2
+      ]
+    },
+    {
+      "id": "q034",
+      "number": 34,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "| Which of the following signs is a stack type advance direction marker?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          29.3,
+          607.2,
+          476.2,
+          696.7
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 11,
+      "source_bbox": [
+        29.3,
+        593.8,
+        476.2,
+        739.9
+      ]
+    },
+    {
+      "id": "q035",
+      "number": 35,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "| Which sign indicates that lanes merge? im",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "labelled_diagram",
+        "ref": null,
+        "labels": [
+          "a",
+          "b"
+        ],
+        "bbox": [
+          53.5,
+          163.4,
+          389.3,
+          153.8
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 12,
+      "source_bbox": [
+        53.5,
+        50.9,
+        389.3,
+        213.8
+      ]
+    },
+    {
+      "id": "q036",
+      "number": 36,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "What does this sign mean?",
+      "options": {
+        "A": "Information centre",
+        "B": "Tourist information centre",
+        "C": "Cul-de sac"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          52.8,
+          267.6,
+          248.4,
+          391.7
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 12,
+      "source_bbox": [
+        52.8,
+        255.8,
+        248.4,
+        434.9
+      ]
+    },
+    {
+      "id": "q037",
+      "number": 37,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "This sign indicates: Plaza",
+      "options": {
+        "A": "Toll road tariffs",
+        "B": "Toll road ahead",
+        "C": "Toll road users"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          51.8,
+          497.8,
+          194.9,
+          561.4
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 12,
+      "source_bbox": [
+        51.8,
+        460.1,
+        194.9,
+        604.6
+      ]
+    },
+    {
+      "id": "q038",
+      "number": 38,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Who may park in this parking bay?",
+      "options": {
+        "A": "Emergency vehicles only",
+        "B": "Anyone who needs to",
+        "C": "Only the vehicles indicated"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          51.8,
+          640.8,
+          272.6,
+          731.0
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 12,
+      "source_bbox": [
+        51.8,
+        629.0,
+        272.6,
+        776.4
+      ]
+    },
+    {
+      "id": "q039",
+      "number": 39,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "| What should you do when approaching this sign?",
+      "options": {
+        "A": "Yield right of way to vehicles on the right",
+        "B": "Yield right of way to vehicles on the left",
+        "C": "Drive in an anticlockwise direction around"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          31.0,
+          64.1,
+          328.8,
+          187.4
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 13,
+      "source_bbox": [
+        31.0,
+        50.4,
+        328.8,
+        230.9
+      ]
+    },
+    {
+      "id": "q040",
+      "number": 40,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which road marking indicates the end of exclusive use lanes?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "options",
+        "refs": null,
+        "bbox": [
+          29.5,
+          266.9,
+          394.1,
+          391.7
+        ]
+      },
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 13,
+      "source_bbox": [
+        29.5,
+        255.6,
+        394.1,
+        434.6
+      ]
+    },
+    {
+      "id": "q041",
+      "number": 41,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "What do these lines indicate? > eal ere! >",
+      "options": {
+        "A": "The direction in which you must drive",
+        "B": "The lanes within which you must drive",
+        "C": "Where the kerbs are on the road"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 13,
+      "source_bbox": [
+        29.0,
+        459.4,
+        293.3,
+        621.1
+      ]
+    },
+    {
+      "id": "q042",
+      "number": 42,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "If you approach a steady red arrow light signal, you should:",
+      "options": {
+        "A": "Stop until the light turns green",
+        "B": "Stop until the light turns yellow",
+        "C": "Proceed"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 13,
+      "source_bbox": [
+        28.8,
+        646.1,
+        378.2,
+        722.9
+      ]
+    },
+    {
+      "id": "q043",
+      "number": 43,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Asteady red man light signals means:",
+      "options": {
+        "A": "Pedestrians may cross the road",
+        "B": "Pedestrians may not cross the road",
+        "C": "If the pedestrian has started to cross must turn back"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          52.8,
+          62.9,
+          390.2,
+          153.4
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 14,
+      "source_bbox": [
+        52.8,
+        51.1,
+        390.2,
+        198.5
+      ]
+    },
+    {
+      "id": "q044",
+      "number": 44,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "What should you do if you see this sign?",
+      "options": {
+        "A": "Yield to oncoming traffic and drive only when safe",
+        "B": "Drive only when it is safe to do so",
+        "C": "Yield to oncoming vehicles and pedestrians"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          52.1,
+          232.8,
+          377.3,
+          323.3
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 14,
+      "source_bbox": [
+        52.1,
+        221.3,
+        377.3,
+        368.6
+      ]
+    },
+    {
+      "id": "q045",
+      "number": 45,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "This hand signal indicates:",
+      "options": {
+        "A": "You intend to turn right",
+        "B": "You are slowing down",
+        "C": "You are stopping «"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          51.8,
+          403.4,
+          234.5,
+          493.0
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 14,
+      "source_bbox": [
+        51.8,
+        390.2,
+        234.5,
+        538.3
+      ]
+    },
+    {
+      "id": "q046",
+      "number": 46,
+      "section": "B",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "_ This sign means that:",
+      "options": {
+        "A": "There is a bridge ahead",
+        "B": "There is a jetty or river bank ahead",
+        "C": "There is ahead"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "single",
+        "ref": null,
+        "bbox": [
+          51.8,
+          573.6,
+          299.0,
+          662.4
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 14,
+      "source_bbox": [
+        51.8,
+        560.2,
+        299.0,
+        705.6
+      ]
+    },
+    {
+      "id": "q047",
+      "number": 47,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "The speed limit for buses or minibuses on a freeway is:",
+      "options": {
+        "A": "",
+        "B": "100 km/h",
+        "C": "120 km/h"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) A. Left empty rather than filled in; verify against the source page.",
+      "page": 15,
+      "source_bbox": [
+        30.2,
+        82.6,
+        357.6,
+        147.4
+      ]
+    },
+    {
+      "id": "q048",
+      "number": 48,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Ona-two way road or highway, you should drive your vehicle in:",
+      "options": {
+        "A": "Right hand lane",
+        "B": "Left hand lane “",
+        "C": "Either lane"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 15,
+      "source_bbox": [
+        29.8,
+        166.6,
+        402.7,
+        231.8
+      ]
+    },
+    {
+      "id": "q049",
+      "number": 49,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Asection of the road is marked with double unbroken dividing lines. When is a vehicle allowed to cross these lines?",
+      "options": {
+        "A": "When there is no traffic coming the other way.",
+        "B": "When there is a slow vehicle ahead",
+        "C": "When there is an obstruction to avoid"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 15,
+      "source_bbox": [
+        29.5,
+        250.8,
+        422.4,
+        329.5
+      ]
+    },
+    {
+      "id": "q050",
+      "number": 50,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "‘If you want to overtake on the right, how will you indicate by using hand signals?",
+      "options": {
+        "A": "Extend your right arm, palm turned forward and move it forward and backwards",
+        "B": "Extend your left arm, palm turned forward and move it forward and backwards",
+        "C": "Extend your right arm, palm down and move forearm in a circular motion"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 15,
+      "source_bbox": [
+        29.8,
+        348.5,
+        513.1,
+        415.9
+      ]
+    },
+    {
+      "id": "q051",
+      "number": 51,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "When you are towing another vehicle with a tow rope, chain or tow bar, the distance between the two vehicles should not be more than:",
+      "options": {
+        "A": "3metres",
+        "B": "3.5 metres",
+        "C": "4metres"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 15,
+      "source_bbox": [
+        29.5,
+        432.7,
+        509.5,
+        511.7
+      ]
+    },
+    {
+      "id": "q052",
+      "number": 52,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "_ If the brakes of a vehicle being towed are not working, it should be connected to the other vehicle with:",
+      "options": {
+        "A": "Aroll bar",
+        "B": "Abull bar",
+        "C": "Atow bar or draw bar"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 15,
+      "source_bbox": [
+        29.5,
+        529.2,
+        539.5,
+        609.1
+      ]
+    },
+    {
+      "id": "q053",
+      "number": 53,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "You should not park your vehicle if it obstructs:",
+      "options": {
+        "A": "alamp post",
+        "B": "aprivate entrance",
+        "C": "aprivate view"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 15,
+      "source_bbox": [
+        29.5,
+        627.8,
+        310.8,
+        695.5
+      ]
+    },
+    {
+      "id": "q054",
+      "number": 54,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which vehicles may stop and park anywhere necessary?",
+      "options": {
+        "A": "Any, in an emergency",
+        "B": "If necessary Police and Traffic officers in execution of their duties",
+        "C": "Post office officers"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 15,
+      "source_bbox": [
+        29.5,
+        711.6,
+        436.6,
+        776.6
+      ]
+    },
+    {
+      "id": "q055",
+      "number": 55,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "When is it compulsory to stop your vehicle?",
+      "options": {
+        "A": "When someone requests you to stop.",
+        "B": "When someone leading animals in the road requests you to stop",
+        "C": "When a passenger requests you to stop."
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 16,
+      "source_bbox": [
+        54.2,
+        51.1,
+        457.7,
+        120.0
+      ]
+    },
+    {
+      "id": "q056",
+      "number": 56,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "While driving a vehicle, cell phones:",
+      "options": {
+        "A": "May be used if it is safe to do so",
+        "B": "May be used in an emergency",
+        "C": "May not be used"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 16,
+      "source_bbox": [
+        53.8,
+        135.4,
+        286.1,
+        202.6
+      ]
+    },
+    {
+      "id": "q057",
+      "number": 57,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which of the following statements is correct?",
+      "options": {
+        "A": "Passengers in a vehicle fitted with airbags are not required to wear a seatbelt",
+        "B": "Seat belts are only required for long trips",
+        "C": "Drivers and passengers in a vehicle need to wear a properly fitted and adjusted"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 16,
+      "source_bbox": [
+        53.3,
+        219.1,
+        535.4,
+        287.0
+      ]
+    },
+    {
+      "id": "q058",
+      "number": 58,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which of the following statements is correct?",
+      "options": {
+        "A": "Vehicles must have a sounding device that is in working order",
+        "B": "Drivers must avoid using sounding devices in vehicles",
+        "C": "Vehicles must not have a sounding device that is in working order"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 16,
+      "source_bbox": [
+        53.0,
+        314.9,
+        462.5,
+        385.0
+      ]
+    },
+    {
+      "id": "q059",
+      "number": 59,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "When you are approaching a pedestrian crossing:",
+      "options": {
+        "A": "You may not overtake another vehicle stopped in front of you",
+        "B": "You may not signal to the pedestrians",
+        "C": "You may not sound your horn"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 16,
+      "source_bbox": [
+        52.8,
+        401.8,
+        436.6,
+        468.7
+      ]
+    },
+    {
+      "id": "q060",
+      "number": 60,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Aconvoy may not travel on a public road:",
+      "options": {
+        "A": "Between 20:00 on a Friday and 8am on Monday",
+        "B": "Between 18:00 on a Friday and 6am on a Monday",
+        "C": "Between 18:00 on a Friday and 8am on a Monday"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 16,
+      "source_bbox": [
+        52.3,
+        485.5,
+        380.4,
+        552.5
+      ]
+    },
+    {
+      "id": "q061",
+      "number": 61,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which vehicles may not be driven on a freeway?",
+      "options": {
+        "A": "Motor car",
+        "B": "Motorised animal carrier",
+        "C": "Animal drawn vehicle"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 16,
+      "source_bbox": [
+        52.3,
+        569.0,
+        344.2,
+        634.1
+      ]
+    },
+    {
+      "id": "q062",
+      "number": 62,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "What is the maximum permissible length of a motor vehicle?",
+      "options": {
+        "A": "12.5m",
+        "B": "13.5m",
+        "C": "18.5m"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 16,
+      "source_bbox": [
+        52.1,
+        652.6,
+        407.0,
+        717.6
+      ]
+    },
+    {
+      "id": "q064",
+      "number": 64,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Goods carried on any vehicle that project to the rear may not exceed?",
+      "options": {
+        "A": "1.8m",
+        "B": "1.8mm",
+        "C": "18m"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 17,
+      "source_bbox": [
+        30.5,
+        134.6,
+        437.3,
+        199.9
+      ]
+    },
+    {
+      "id": "q065",
+      "number": 65,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "How must you indicate a load projecting by more than 300mm to the rear when driving between sunset and sunrise?",
+      "options": {
+        "A": "Yellow reflector lamp",
+        "B": "White reflector lamp",
+        "C": "Red"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 17,
+      "source_bbox": [
+        30.2,
+        218.6,
+        523.4,
+        297.8
+      ]
+    },
+    {
+      "id": "q066",
+      "number": 66,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "The speed limit for goods, articulated and combination vehicles (exceeding 9000 kg GVM) outside an urban area on tarred road is:",
+      "options": {
+        "A": "60 km/h",
+        "B": "80km/h |",
+        "C": "100 km/h"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 17,
+      "source_bbox": [
+        29.8,
+        316.8,
+        543.1,
+        395.5
+      ]
+    },
+    {
+      "id": "q067",
+      "number": 67,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "What is the maximum speed limit for any vehicle towing another vehicle without a towbar or drawbar on any road?",
+      "options": {
+        "A": "25 km/h",
+        "B": "",
+        "C": "35km/h"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) B. Left empty rather than filled in; verify against the source page.",
+      "page": 17,
+      "source_bbox": [
+        29.5,
+        414.7,
+        536.2,
+        493.9
+      ]
+    },
+    {
+      "id": "q068",
+      "number": 68,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "What is a stopping distance?",
+      "options": {
+        "A": "Braking distance",
+        "B": "Reaction distance + braking distance",
+        "C": "Reaction distance + slowing speed"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 17,
+      "source_bbox": [
+        29.3,
+        512.6,
+        288.2,
+        579.8
+      ]
+    },
+    {
+      "id": "q069",
+      "number": 69,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "When the first rains fall after a dry spell, you should drive:",
+      "options": {
+        "A": "Faster than the speed limit to reduce the oil on the road",
+        "B": "Slower than the speed limit to avoid obstacles on the road",
+        "C": "With reduced speed as the road may be slippery with oil’"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 17,
+      "source_bbox": [
+        29.0,
+        596.4,
+        399.4,
+        663.6
+      ]
+    },
+    {
+      "id": "q070",
+      "number": 70,
+      "section": "C",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "being overtaken by another vehicle, you should:",
+      "options": {
+        "A": "Accelerate until the other vehicle has passed",
+        "B": "Slow down to let the other vehicle pass",
+        "C": "Drive on the far left of the road?"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 17,
+      "source_bbox": [
+        16.1,
+        680.2,
+        353.0,
+        745.4
+      ]
+    },
+    {
+      "id": "q071",
+      "number": 71,
+      "section": "D",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "projecting to the front when carried on a motorcycle may not exceed:",
+      "options": {
+        "A": "6m",
+        "B": "600m",
+        "C": "600mm"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 18,
+      "source_bbox": [
+        53.0,
+        359.8,
+        488.4,
+        437.0
+      ]
+    },
+    {
+      "id": "q072",
+      "number": 72,
+      "section": "D",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "When must a passenger or driver of a motorcycle wear a protective helmet?",
+      "options": {
+        "A": "Always",
+        "B": "Never",
+        "C": "When it is necessary"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 18,
+      "source_bbox": [
+        52.8,
+        461.8,
+        490.8,
+        541.0
+      ]
+    },
+    {
+      "id": "q073",
+      "number": 73,
+      "section": "D",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Adriver of a motorcycle on a public road needs to ensure that:",
+      "options": {
+        "A": "Feet are on a footrest",
+        "B": "Heads are on a headrest",
+        "C": "Passengers are comfortable"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 18,
+      "source_bbox": [
+        52.6,
+        563.3,
+        416.9,
+        643.0
+      ]
+    },
+    {
+      "id": "q074",
+      "number": 74,
+      "section": "D",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "In the picture above which is the rear brake?",
+      "options": {
+        "A": "d",
+        "B": "e",
+        "C": "c"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "labelled_diagram",
+        "ref": null,
+        "labels": [
+          "c",
+          "d",
+          "e"
+        ],
+        "bbox": [
+          52.1,
+          676.8,
+          323.0,
+          699.4
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 18,
+      "source_bbox": [
+        52.1,
+        665.5,
+        323.0,
+        742.3
+      ]
+    },
+    {
+      "id": "q075",
+      "number": 75,
+      "section": "D",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "do you use a clutch for, on a motorcycle?",
+      "options": {
+        "A": "direction",
+        "B": "To engage the engine",
+        "C": "the engine"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 19,
+      "source_bbox": [
+        30.2,
+        49.7,
+        314.4,
+        130.1
+      ]
+    },
+    {
+      "id": "q076",
+      "number": 76,
+      "section": "D",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "indicators on a motorcycle are used to:",
+      "options": {
+        "A": "the direction of movement",
+        "B": "Direct the motorcycle",
+        "C": "Change direction of the motorcycle"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 19,
+      "source_bbox": [
+        29.5,
+        152.6,
+        294.0,
+        232.3
+      ]
+    },
+    {
+      "id": "q077",
+      "number": 77,
+      "section": "D",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "\\If someone has been killed or injured in an accident, you may:",
+      "options": {
+        "A": "Not move the vehicles",
+        "B": "Move the vehicles",
+        "C": "Move the vehicle that caused the accident"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 19,
+      "source_bbox": [
+        29.3,
+        254.4,
+        392.9,
+        331.7
+      ]
+    },
+    {
+      "id": "q078",
+      "number": 78,
+      "section": "D",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "To see behind on a motorcycle, you use:",
+      "options": {
+        "A": "The rear brake",
+        "B": "The mirror",
+        "C": "The indicator"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 19,
+      "source_bbox": [
+        29.0,
+        356.9,
+        278.4,
+        433.9
+      ]
+    },
+    {
+      "id": "q079",
+      "number": 79,
+      "section": "E",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "INthe a",
+      "options": {
+        "A": "a",
+        "B": "e",
+        "C": "b"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": {
+        "type": "labelled_diagram",
+        "ref": null,
+        "labels": [
+          "a",
+          "b",
+          "e"
+        ],
+        "bbox": [
+          52.8,
+          318.0,
+          418.8,
+          340.6
+        ]
+      },
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 20,
+      "source_bbox": [
+        52.8,
+        305.0,
+        418.8,
+        381.4
+      ]
+    },
+    {
+      "id": "q080",
+      "number": 80,
+      "section": "E",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "The ignition switch is used to turn on:",
+      "options": {
+        "A": "— The lights",
+        "B": "The engine",
+        "C": "Indicators"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 20,
+      "source_bbox": [
+        52.8,
+        404.4,
+        284.6,
+        477.4
+      ]
+    },
+    {
+      "id": "q081",
+      "number": 81,
+      "section": "E",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "You are driving at night with other cars on the road, you should have:",
+      "options": {
+        "A": "Your headlights on dip’",
+        "B": "Your headlights on full beam",
+        "C": "Your parking lights on"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 20,
+      "source_bbox": [
+        52.6,
+        500.4,
+        451.9,
+        575.8
+      ]
+    },
+    {
+      "id": "q082",
+      "number": 82,
+      "section": "E",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "The safe way to stop the vehicle is to:",
+      "options": {
+        "A": "Press the clutch and then the brake",
+        "B": "Press the brake and then the clutch",
+        "C": "Press the brake and clutch simultaneously"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 20,
+      "source_bbox": [
+        52.3,
+        596.2,
+        339.1,
+        670.8
+      ]
+    },
+    {
+      "id": "q083",
+      "number": 83,
+      "section": "E",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "When driving slow and want to speed up, you:",
+      "options": {
+        "A": "Use the speedometer",
+        "B": "Press the accelerator",
+        "C": "Press the clutch"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 20,
+      "source_bbox": [
+        52.3,
+        691.7,
+        331.2,
+        764.9
+      ]
+    },
+    {
+      "id": "q084",
+      "number": 84,
+      "section": "E",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "The purpose of the service brake is to:",
+      "options": {
+        "A": "Stop the",
+        "B": "Stop the engine",
+        "C": "Stop the gearbox"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 21,
+      "source_bbox": [
+        15.1,
+        51.6,
+        269.0,
+        126.7
+      ]
+    },
+    {
+      "id": "q085",
+      "number": 85,
+      "section": "E",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "What is the first thing you must do as a driver of a vehicle that is involved in an accident?",
+      "options": {
+        "A": "Call an ambulance",
+        "B": "Stop the car’",
+        "C": "Drive to the nearest police station"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 21,
+      "source_bbox": [
+        10.1,
+        146.4,
+        537.1,
+        223.0
+      ]
+    },
+    {
+      "id": "q086",
+      "number": 86,
+      "section": "E",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Whatis the maximum permissible length of an articulated motor vehicle (or combination of vehicle and semi-trailer)?",
+      "options": {
+        "A": "12.5m",
+        "B": "13.5m 18.5m",
+        "C": ""
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "blocked",
+      "blocked_reason": "Extraction did not recover option(s) C. Left empty rather than filled in; verify against the source page.",
+      "page": 21,
+      "source_bbox": [
+        29.3,
+        239.3,
+        544.8,
+        332.2
+      ]
+    },
+    {
+      "id": "q087",
+      "number": 87,
+      "section": "E",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "What is the maximum permissible width of a motor vehicle?",
+      "options": {
+        "A": "25m",
+        "B": "5.2m",
+        "C": "2.5m"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 21,
+      "source_bbox": [
+        29.8,
+        355.0,
+        380.6,
+        428.6
+      ]
+    },
+    {
+      "id": "q088",
+      "number": 88,
+      "section": "E",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "your vehicle breaks down, a driver may not:",
+      "options": {
+        "A": "Push the vehicle",
+        "B": "Push the vehicle on the road",
+        "C": "Push the vehicle on the sidewalk"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 21,
+      "source_bbox": [
+        29.5,
+        451.2,
+        307.2,
+        524.4
+      ]
+    },
+    {
+      "id": "q089",
+      "number": 89,
+      "section": "E",
+      "category": null,
+      "sign_type": null,
+      "topic": null,
+      "is_example": false,
+      "text": "Which of the following statements is correct?",
+      "options": {
+        "A": "Adriver may use a cell phone in the vehicle if the cell phone stays fixed to the vehicle while the phone is in use.",
+        "B": "Adriver may use a cell phone in the vehicle if the vehicle is being driven",
+        "C": "Adriver may use a cell phone if calling another driver"
+      },
+      "answer": null,
+      "answer_source": null,
+      "needs_official_source": null,
+      "image": null,
+      "status": "ok",
+      "blocked_reason": null,
+      "page": 21,
+      "source_bbox": [
+        29.5,
+        546.7,
+        544.6,
+        639.4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.95 50.33" width="30.95" height="50.33">
+  <defs>
+    <style>
+    .cls-35 { fill: #fff; }
+    .cls-81 { fill: #e21f26; }
+    .cls-9 { fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: .08px; }
+    </style>
+  </defs>
+  <g transform="translate(-123.92 -414.03)">
+    <polygon points="141.31 416.03 152.87 416.03 152.87 462.36 125.92 462.36 125.92 416.03 141.31 416.03"/>
+    <rect x="141.31" y="416.03" width="11.56" height="46.33" class="cls-35"/>
+    <polygon points="141.31 427.59 152.87 439.24 141.31 450.8 141.31 427.59" class="cls-81"/>
+    <polygon points="152.87 462.36 152.87 450.8 141.31 462.36 152.87 462.36 152.87 450.8 152.87 462.36" class="cls-81"/>
+    <polygon points="141.31 416.03 152.87 427.59 152.87 416.03 141.31 416.03" class="cls-81"/>
+    <rect x="125.92" y="416.03" width="11.56" height="46.33" class="cls-35"/>
+    <polygon points="137.48 450.8 125.92 439.24 137.48 427.59 137.48 450.8" class="cls-81"/>
+    <polygon points="137.48 462.36 125.92 450.8 125.92 462.36 137.48 462.36" class="cls-81"/>
+    <polygon points="125.92 427.59 137.48 416.03 125.92 416.03 125.92 427.59" class="cls-81"/>
+    <polygon points="141.31 416.03 152.87 416.03 152.87 462.36 125.92 462.36 125.92 416.03 141.31 416.03" class="cls-9"/>
+  </g>
+</svg>

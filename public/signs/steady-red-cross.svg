@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.99 42.51" width="36.99" height="42.51">
+  <defs>
+    <style>
+    .cls-53 { fill: #e21f26; }
+    </style>
+  </defs>
+  <g transform="translate(-124.64 -382.33)">
+    <rect x="126.64" y="384.33" width="32.99" height="38.51"/>
+    <polygon points="131.01 420.27 128.55 418.08 141 403.55 128.55 389.02 131.01 386.89 143.13 401.04 155.31 386.89 157.77 389.02 145.32 403.55 157.77 418.08 155.31 420.27 143.13 406.12 131.01 420.27" class="cls-53"/>
+  </g>
+</svg>

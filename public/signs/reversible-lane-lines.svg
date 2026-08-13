@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.24 41.21" width="84.24" height="41.21">
+  <defs>
+    <style>
+    .cls-23 { fill: #bcbdc0; }
+    .cls-18 { fill: #fff; }
+    </style>
+  </defs>
+  <g transform="translate(-97.86 -96.62)">
+    <rect x="99.86" y="98.62" width="80.24" height="37.21" class="cls-23"/>
+    <rect x="103.67" y="120.89" width="10.37" height="1.74" class="cls-18"/>
+    <rect x="134.85" y="120.89" width="10.37" height="1.74" class="cls-18"/>
+    <rect x="165.96" y="120.89" width="10.44" height="1.74" class="cls-18"/>
+    <rect x="103.67" y="124.37" width="10.37" height="1.82" class="cls-18"/>
+    <rect x="134.85" y="124.37" width="10.37" height="1.82" class="cls-18"/>
+    <rect x="165.96" y="124.37" width="10.45" height="1.82" class="cls-18"/>
+    <polygon points="141.37 131.15 142.2 131.15 141.74 129.26 147.72 131.68 141.74 134.11 142.2 132.14 137.73 132.14 138.11 134.11 132.13 131.68 138.11 129.26 137.73 131.15 141.37 131.15" class="cls-18"/>
+    <rect x="103.67" y="108.38" width="10.37" height="1.74" class="cls-18"/>
+    <rect x="134.85" y="108.38" width="10.37" height="1.74" class="cls-18"/>
+    <rect x="165.96" y="108.38" width="10.44" height="1.74" class="cls-18"/>
+    <polyline points="134.95 102.42 138.58 102.42 139.41 102.42 138.96 100.53 144.94 102.95 138.96 105.37 139.41 103.4 134.95 103.4" class="cls-18"/>
+    <polyline points="134.95 115.8 138.58 115.8 139.41 115.8 138.96 113.91 144.94 116.33 138.96 118.76 139.41 116.79 134.95 116.79" class="cls-18"/>
+  </g>
+</svg>

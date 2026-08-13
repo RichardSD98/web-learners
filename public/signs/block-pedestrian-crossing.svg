@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.78 59.22" width="66.78" height="59.22">
+  <defs>
+    <style>
+    .cls-53 { fill: #bcbdc0; }
+    .cls-48 { fill: #fff; }
+    .cls-19 { fill: #010101; }
+    </style>
+  </defs>
+  <g transform="translate(-106.78 -688.88)">
+    <rect x="108.78" y="690.88" width="62.78" height="55.22" class="cls-53"/>
+    <rect x="166.07" y="709.63" width="3.65" height="18.04" class="cls-48"/>
+    <rect x="152.36" y="709.63" width="3.65" height="18.04" class="cls-48"/>
+    <rect x="116.49" y="709.71" width="3.58" height="18.04" class="cls-48"/>
+    <rect x="110.1" y="709.71" width="3.58" height="18.04" class="cls-48"/>
+    <rect x="123.98" y="709.71" width="3.65" height="18.04" class="cls-48"/>
+    <rect x="131.43" y="709.71" width="3.58" height="18.04" class="cls-48"/>
+    <rect x="138.11" y="709.71" width="3.65" height="18.04" class="cls-48"/>
+    <rect x="145.13" y="709.71" width="3.58" height="18.04" class="cls-48"/>
+    <rect x="159.4" y="709.71" width="3.58" height="18.04" class="cls-48"/>
+    <polygon points="126.56 736.27 127.78 742.74 125.35 742.74 126.56 736.27" class="cls-19"/>
+    <polygon points="151.38 702.32 150.16 695.85 152.6 695.85 151.38 702.32 151.38 702.32" class="cls-19"/>
+    <rect x="117.73" y="729.42" width="4.72" height="4.03" class="cls-48"/>
+    <rect x="111.34" y="729.42" width="4.72" height="4.03" class="cls-48"/>
+    <rect x="124.81" y="729.42" width="4.8" height="4.03" class="cls-48"/>
+    <rect x="131.97" y="729.42" width="4.72" height="4.03" class="cls-48"/>
+    <polygon points="139.05 733.46 139.05 729.42 143.77 729.42 143.62 745.71 142.25 745.94 142.17 733.46 139.05 733.46" class="cls-48"/>
+    <rect x="162.64" y="703.69" width="4.8" height="4.04" class="cls-48"/>
+    <rect x="155.57" y="703.69" width="4.72" height="4.04" class="cls-48"/>
+    <rect x="148.49" y="703.69" width="4.64" height="4.04" class="cls-48"/>
+    <polygon points="146.13 703.69 146.13 707.73 141.33 707.73 141.33 690.98 142.7 691.67 142.93 703.69 146.13 703.69" class="cls-48"/>
+  </g>
+</svg>

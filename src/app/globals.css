@@ -2,25 +2,72 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --surface: #ffffff;
+  --surface-2: #f6f7f9;
+  --foreground: #16181d;
+  --muted: #5b6472;
+  --line: #e2e6ec;
+  --accent: #0b5fbc;
+  --accent-soft: #eaf2fd;
+  --correct: #12693f;
+  --correct-soft: #e8f6ee;
+  --wrong: #b3261e;
+  --wrong-soft: #fdecea;
+  --warn: #8a5a00;
+  --warn-soft: #fdf3e2;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #101216;
+    --surface: #171a20;
+    --surface-2: #1d212a;
+    --foreground: #e9ecf1;
+    --muted: #9aa4b2;
+    --line: #2a2f3a;
+    --accent: #6aa9f0;
+    --accent-soft: #16243a;
+    --correct: #6ddba0;
+    --correct-soft: #12281d;
+    --wrong: #ff8b82;
+    --wrong-soft: #2c1614;
+    --warn: #f0b357;
+    --warn-soft: #2a2015;
   }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-correct: var(--correct);
+  --color-correct-soft: var(--correct-soft);
+  --color-wrong: var(--wrong);
+  --color-wrong-soft: var(--wrong-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --font-sans: var(--font-geist-sans);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+}
+
+/* Sign artwork is line art on white. Keep a white plate behind it in dark mode
+   so the strokes stay visible rather than disappearing into the page. */
+.artwork-plate {
+  background: #ffffff;
+  border-radius: 0.5rem;
 }

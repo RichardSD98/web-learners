@@ -1,0 +1,518 @@
+{
+  "note": "Subject-topic labels, which are what the official 90-question blueprint is built from. The extractor leaves `topic`, `category` and `sign_type` null by design, and no bank carries them, so without this file no question can be placed in a quota. A label decides only WHICH QUOTA a question counts toward - it never touches the question, its options or its stated answer.",
+  "labelled_by": "machine",
+  "reviewed": false,
+  "review_warning": "Every entry below was assigned by Claude, not by a human, and none has been reviewed. Do not treat the quota counts as authoritative until `reviewed` is true. Set an entry's `reviewed` to true only after checking its basis, and flip the file-level flag when all entries are done.",
+  "basis_of_labels": "Sign topics are taken from the `class` field of the matching entry in the manual's own sign catalogue (data/signs.json), identified by name or, for picture questions, by the stated correct answer's artwork. Non-sign topics are taken from the manual paragraph the question tests, using the chapter-2 headings in data/book.json: paragraphs 1-3 are vehicle controls, 4-26 are Rules of the Road, 27-39 are Other Matters Relating to Road Traffic Law (traffic legislation). `general_duties` marks the sub-requirement that at least 5 of the 15 Rules of the Road questions concern the general duties of a driver; it is paragraph 25, 'General duties of driver or passenger of vehicle on road'.",
+  "entries": [
+    {
+      "bank": "paper-a-answers.json",
+      "question": 7,
+      "topic": "regulatory_signs",
+      "basis": "Blue command disc with rickshaw pictogram - Rickshaws Only. Catalogue class regulatory.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 8,
+      "topic": "warning_signs",
+      "basis": "Tunnel, catalogue p56, class warning.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 9,
+      "topic": "regulatory_signs",
+      "basis": "Length Limit, catalogue p42, class regulatory.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 10,
+      "topic": "regulatory_signs",
+      "basis": "No Left Turn Ahead, catalogue p43, class regulatory.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 11,
+      "topic": "regulatory_signs",
+      "basis": "Taxi reservation, catalogue p46, class regulatory.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 13,
+      "topic": "regulatory_signs",
+      "basis": "Motorcycle engine size limit, catalogue p51, class regulatory.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 14,
+      "topic": "warning_signs",
+      "basis": "Secondary Crossroad, catalogue p53, class warning.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 15,
+      "topic": "warning_signs",
+      "basis": "Concealed driveway, catalogue p55, class warning.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 16,
+      "topic": "warning_signs",
+      "basis": "Pedestrian Crossing, catalogue p55, class warning. The road-marking crossing line is a separate entry and a separate topic.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 17,
+      "topic": "warning_signs",
+      "basis": "Surface step, catalogue p58, class warning.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 18,
+      "topic": "warning_signs",
+      "basis": "Soft shoulder, catalogue p58, class warning.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 19,
+      "topic": "warning_signs",
+      "basis": "Artwork is a yellow triangle enclosing a blue disc - Temporary police flashing light, catalogue p58, class warning. Matches the stated answer, 'a hazard ahead with police present'.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 20,
+      "topic": "warning_signs",
+      "basis": "Dead end or road closed chevron, catalogue p60, class warning.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 21,
+      "topic": "warning_signs",
+      "basis": "Stated answer is the red-and-white striped barrier - Boom barricade, catalogue p60, class warning.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 22,
+      "topic": "warning_signs",
+      "basis": "Stated answer is the outward-pointing gore marker - Gore chevron, catalogue p60, class warning.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 23,
+      "topic": "warning_signs",
+      "basis": "Speed Humps, catalogue p57, class warning.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 24,
+      "topic": "guidance_signs",
+      "basis": "Stated answer is 'entering a conservancy area' - Conservancy area, catalogue p61, class guidance. The guinea fowl pictogram alone would suggest a warning sign, so the answer decides it.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 25,
+      "topic": "guidance_signs",
+      "basis": "Advanced local direction / Local fingerboard, catalogue p66, class guidance.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 26,
+      "topic": "road_markings",
+      "basis": "Red-bordered rectangle depicting a marking ahead - Lane reduction arrow, catalogue p71, class road_marking.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 27,
+      "topic": "guidance_signs",
+      "basis": "Suburb name, catalogue p61, class guidance.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 28,
+      "topic": "guidance_signs",
+      "basis": "Route marker, catalogue p62, class guidance.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 29,
+      "topic": "guidance_signs",
+      "basis": "Stack-type advance direction, catalogue p63, class guidance.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 30,
+      "topic": "guidance_signs",
+      "basis": "Additional lane, catalogue p66, class guidance.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 31,
+      "topic": "road_markings",
+      "basis": "Red-bordered rectangle with chequered arrestor-bed pictogram - Arrestor bed ahead, catalogue p71, class road_marking.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 32,
+      "topic": "information_signs",
+      "basis": "Bus stop ahead, catalogue p67, class information. Bus stop reservation, a regulatory sign, is a different sign and the stated answer distinguishes them.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 33,
+      "topic": "information_signs",
+      "category": null,
+      "basis": "The stated answer C is 'Cul-de-sac'. The catalogue entry `cul-de-sac` (data/signs.json, folio 67) is class `information`, meaning 'Road as indicated on the sign is not a through road'.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 34,
+      "topic": "information_signs",
+      "category": null,
+      "basis": "The stated answer A is 'Countdown high speed exit approximately 200m ahead'. The catalogue entry `countdown` (data/signs.json, folio 67) is class `information`, meaning 'High speed exit approximately 300m (three lines on sign), 200m (two lines on sign), 100m (one line on sign) ahead'.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 35,
+      "topic": "regulatory_signs",
+      "basis": "Artwork is a yellow diamond on white - Priority Road, a control sign. Catalogue class regulatory. Matches the stated answer, 'have right of way at the junction ahead'.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 36,
+      "topic": "road_markings",
+      "basis": "Stop line, catalogue p68, class road_marking.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 37,
+      "topic": "road_markings",
+      "basis": "Pedestrian crossing line, catalogue p68, class road_marking.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 38,
+      "topic": "road_markings",
+      "basis": "Escape road ahead, catalogue p71, class road_marking.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 39,
+      "topic": "road_markings",
+      "basis": "Lane direction arrow, catalogue p71, class road_marking.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 40,
+      "topic": "road_markings",
+      "basis": "Painted lane arrows. Catalogue p71 carries the arrow markings, class road_marking.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 42,
+      "topic": "road_markings",
+      "basis": "Kerb face marking, catalogue p72, class road_marking.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 44,
+      "topic": "road_signals",
+      "basis": "A flashing signal aspect. Catalogue p73 lists the signal aspects, class road_signal.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 46,
+      "topic": "road_signals",
+      "basis": "Traffic officer hand signal. Catalogue p75 lists Stop, Proceed and Slow down as officer signals, class road_signal.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 47,
+      "topic": "traffic_legislation",
+      "basis": "Paragraph 27, Speed limits, in 'Other Matters Relating to Road Traffic Law'.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 48,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 4, Vehicle to be driven on left side of road.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 49,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 5, Driving on divided road.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 50,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 6, Overtaking.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 51,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 6, Overtaking - the duty of the driver being overtaken.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 52,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 6, Overtaking - crossing a double unbroken dividing line. The artwork shows a marking but the question tests the rule, not the marking's meaning.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 53,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 6, Overtaking - where it is prohibited.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 54,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 6, Overtaking - where it is prohibited.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 55,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 6, Overtaking - passing on the left.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 56,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 7, Crossing or entering road or traffic lane.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 57,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 8, Driving signals and direction indicators. The artwork shows a driver's arm out of a car window, not a traffic officer, so this is a driver's signal and not a road signal.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 58,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 26, Towing of vehicles.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 59,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 11, Stopping of vehicles.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 60,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 13, Parking of vehicles.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 61,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 14, Compulsory stops.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 62,
+      "topic": "traffic_legislation",
+      "basis": "Paragraph 28, Duty of driver in event of accident, in 'Other Matters Relating to Road Traffic Law'.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 63,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 18, Pedestrians' right of way in pedestrian crossing.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 64,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 18, Pedestrians' right of way in pedestrian crossing - scholar patrol.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 65,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 19, Convoys on road.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 66,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 19, Convoys on road - the curfew hours.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 67,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 20, Hindering or obstructing traffic on road.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 68,
+      "topic": "rules_of_the_road",
+      "category": null,
+      "basis": "The stated answer C is 'Objects which endanger traffic may not be placed on public roads', which is paragraph 20 'Hindering or obstructing traffic on road' (folio 23): 'You may not place or abandon or cause to be placed or abandoned on a road any object that may endanger or cause damage to traffic on the road' (f-obstruction-002). Paragraphs 4-26 are Rules of the Road. Not paragraph 25, so not general duties.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 69,
+      "topic": "road_signals",
+      "basis": "What a steady red traffic light requires. Catalogue p73 lists the signal aspects, class road_signal. The paper prints this in its rules section, but the topic is what the blueprint is built from and the section letter is only provenance.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 70,
+      "topic": "rules_of_the_road",
+      "basis": "Paragraph 13, Parking of vehicles - distance from a fire hydrant.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 79,
+      "topic": "vehicle_controls",
+      "basis": "Paragraphs 2 and 3, Controls for Operating Motor Vehicles - the name and position of the parking brake.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 80,
+      "topic": "vehicle_controls",
+      "basis": "Paragraphs 2 and 3, Controls for Operating Motor Vehicles - the accelerator.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 81,
+      "topic": "vehicle_controls",
+      "basis": "Paragraphs 2 and 3, Controls for Operating Motor Vehicles - the clutch.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 82,
+      "topic": "traffic_legislation",
+      "basis": "Paragraph 32, Seatbelts or Safety belts, in 'Other Matters Relating to Road Traffic Law'.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 83,
+      "topic": "rules_of_the_road",
+      "category": "general_duties",
+      "basis": "Paragraph 25, General duties of driver or passenger of vehicle on road - leaving a vehicle unattended with the engine running.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 84,
+      "topic": "rules_of_the_road",
+      "category": "general_duties",
+      "basis": "Paragraph 25, General duties of driver or passenger of vehicle on road - a passenger boarding or alighting.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 85,
+      "topic": "traffic_legislation",
+      "basis": "Paragraph 29, Vehicles to be equipped with certain lamps and the times when they must be used.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 86,
+      "topic": "traffic_legislation",
+      "basis": "Paragraph 33, Overall length of vehicle.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 87,
+      "topic": "traffic_legislation",
+      "basis": "Paragraph 33, Overall length of vehicle - articulated vehicle.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 88,
+      "topic": "traffic_legislation",
+      "basis": "Paragraph 34, Overall width of vehicle - bus.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 89,
+      "topic": "traffic_legislation",
+      "basis": "Paragraph 34, Overall width of vehicle.",
+      "reviewed": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question": 90,
+      "topic": "traffic_legislation",
+      "basis": "Paragraph 36, Projections in case of vehicle.",
+      "reviewed": false
+    }
+  ]
+}

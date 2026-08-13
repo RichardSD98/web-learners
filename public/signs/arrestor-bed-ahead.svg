@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.07 35.92" width="83.07" height="35.92">
+  <defs>
+    <style>
+    .cls-23 { fill: #bcbdc0; }
+    .cls-18 { fill: #fff; }
+    .cls-7 { fill: #e31f26; }
+    .cls-6 { fill: #010101; }
+    </style>
+  </defs>
+  <g transform="translate(-97.91 -710.79)">
+    <rect x="99.91" y="712.79" width="79.07" height="31.92" class="cls-23"/>
+    <rect x="104.77" y="725.08" width="13.64" height="7.17" class="cls-18"/>
+    <rect x="132.01" y="716.1" width="13.64" height="7.17" class="cls-18"/>
+    <rect x="132.01" y="734.05" width="13.64" height="7.17" class="cls-18"/>
+    <rect x="159.29" y="725.08" width="13.6" height="7.17" class="cls-18"/>
+    <rect x="104.77" y="716.1" width="13.64" height="7.17" class="cls-7"/>
+    <rect x="104.77" y="734.05" width="13.64" height="7.17" class="cls-7"/>
+    <rect x="132.01" y="725.08" width="13.64" height="7.17" class="cls-7"/>
+    <rect x="159.29" y="716.1" width="13.6" height="7.17" class="cls-7"/>
+    <rect x="159.29" y="734.05" width="13.6" height="7.17" class="cls-7"/>
+    <polygon points="122.99 727.89 122.99 729.43 128.09 728.64 122.99 727.89" class="cls-6"/>
+  </g>
+</svg>

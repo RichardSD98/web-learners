@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.63 13.47" width="83.63" height="13.47">
+  <defs>
+    <style>
+    .cls-35 { fill: #fff; }
+    .cls-81 { fill: #e21f26; }
+    .cls-10 { fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: .04px; }
+    </style>
+  </defs>
+  <g transform="translate(-98.61 -383.6)">
+    <rect x="100.61" y="385.6" width="79.63" height="9.47" class="cls-35"/>
+    <rect x="134.71" y="385.97" width="11.39" height="8.74" class="cls-81"/>
+    <rect x="111.97" y="385.97" width="11.39" height="8.74" class="cls-81"/>
+    <rect x="157.5" y="385.97" width="11.35" height="8.74" class="cls-81"/>
+    <rect x="100.61" y="385.6" width="79.63" height="9.47" class="cls-10"/>
+  </g>
+</svg>

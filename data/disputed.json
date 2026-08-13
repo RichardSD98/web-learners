@@ -1,0 +1,17 @@
+{
+  "note": "Questions whose stated answer is not trusted. Excluded from sampling until a human clears them. Set `cleared` to true only after checking against the official manual, and record what was checked.",
+  "entries": [
+    {
+      "bank": "paper-a-answers.json",
+      "question_numbers": [5],
+      "reason": "The answer key marks A ('Drive no faster than 50km/hour'), but the artwork is a solid blue disc reading 50. The manual (folio 39, regulatory sign #14, 'Minimum Speed') defines that sign as 'Maintain or exceed the minimum speed indicated'. The separate 'shall not exceed' sign is #44. The key's option A describes a maximum-speed sign.",
+      "cleared": false
+    },
+    {
+      "bank": "paper-a-answers.json",
+      "question_numbers": [4, 5, 6, 12, 41, 43, 45],
+      "reason": "The two mark-ups of this paper disagree on these 7 of the 79 questions both mark (91% agreement). Test_paper_with_answers.pdf is used as the key because its marks are systematic, but a disagreement rate this high means neither can be assumed correct on the questions where they differ.",
+      "cleared": false
+    }
+  ]
+}
